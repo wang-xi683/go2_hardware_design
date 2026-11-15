@@ -1,0 +1,16 @@
+~$*
+*.sldbak
+*.SLDBAK
+*.swar
+*.tmp
+Thumbs.db
+.DS_Store
+.work/
+.trash_pending/
+*.SLDPRT.00*
+*.SLDASM.00*
+*.SLDPRT.bak
+*.asmdot
+*.prtdot
+*.sldprt.tmp
+desktop.ini

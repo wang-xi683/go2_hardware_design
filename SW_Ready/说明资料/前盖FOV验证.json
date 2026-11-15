@@ -1,0 +1,126 @@
+{
+  "zip_sha256": "00dd45450f8f0643a04532d5f34cc9d36eb13ac4f2334b1237a4f3ea5c41088c",
+  "front_step_sha256": "88180857f48e5a0ef837c05d93868ab4000d3f2216c5773cb8985b9f34db8fd2",
+  "front_bbox_camera_mm": [
+    -50.5,
+    -18.0,
+    0.0,
+    50.5,
+    18.0,
+    6.0
+  ],
+  "front_thickness_mm": 6,
+  "opening_mm": [
+    90,
+    25
+  ],
+  "code_required_horizontal_deg": 58,
+  "code_required_vertical_deg": 58,
+  "code_image_hw": [
+    64,
+    64
+  ],
+  "virtual_camera_position_ignored_per_user": true,
+  "results": [
+    {
+      "test": "code_58x58",
+      "imager": "left_depth_imager",
+      "h_fov_deg": 58,
+      "v_fov_deg": 58,
+      "pinhole_camera_mm": [
+        17.5,
+        0.0,
+        -4.2
+      ],
+      "front_outer_ray_x_mm": [
+        11.846047675181758,
+        23.153952324818242
+      ],
+      "front_outer_ray_y_mm": [
+        -5.653952324818243,
+        5.653952324818243
+      ],
+      "minimum_rectangular_opening_margin_mm": 6.846047675181757,
+      "rays_tested": 4225,
+      "rays_intersecting_front_cover": 0,
+      "nominal_pinhole_result": "PASS"
+    },
+    {
+      "test": "code_58x58",
+      "imager": "right_stereo_imager",
+      "h_fov_deg": 58,
+      "v_fov_deg": 58,
+      "pinhole_camera_mm": [
+        -32.5,
+        0.0,
+        -4.2
+      ],
+      "front_outer_ray_x_mm": [
+        -38.15395232481824,
+        -26.846047675181758
+      ],
+      "front_outer_ray_y_mm": [
+        -5.653952324818243,
+        5.653952324818243
+      ],
+      "minimum_rectangular_opening_margin_mm": 6.846047675181757,
+      "rays_tested": 4225,
+      "rays_intersecting_front_cover": 0,
+      "nominal_pinhole_result": "PASS"
+    },
+    {
+      "test": "nominal_wide_87x58",
+      "imager": "left_depth_imager",
+      "h_fov_deg": 87,
+      "v_fov_deg": 58,
+      "pinhole_camera_mm": [
+        17.5,
+        0.0,
+        -4.2
+      ],
+      "front_outer_ray_x_mm": [
+        7.820561419508229,
+        27.17943858049177
+      ],
+      "front_outer_ray_y_mm": [
+        -5.653952324818243,
+        5.653952324818243
+      ],
+      "minimum_rectangular_opening_margin_mm": 6.846047675181757,
+      "rays_tested": 4225,
+      "rays_intersecting_front_cover": 0,
+      "nominal_pinhole_result": "PASS"
+    },
+    {
+      "test": "nominal_wide_87x58",
+      "imager": "right_stereo_imager",
+      "h_fov_deg": 87,
+      "v_fov_deg": 58,
+      "pinhole_camera_mm": [
+        -32.5,
+        0.0,
+        -4.2
+      ],
+      "front_outer_ray_x_mm": [
+        -42.17943858049177,
+        -22.82056141950823
+      ],
+      "front_outer_ray_y_mm": [
+        -5.653952324818243,
+        5.653952324818243
+      ],
+      "minimum_rectangular_opening_margin_mm": 2.8205614195082305,
+      "rays_tested": 4225,
+      "rays_intersecting_front_cover": 0,
+      "nominal_pinhole_result": "PASS"
+    }
+  ],
+  "assumptions": [
+    "名义针孔模型；左右红外中心机械X=17.5/-32.5mm，Y=0，Z=-4.2mm。",
+    "不含镜头入口瞳有限尺寸、镜头畸变、硬件标定误差与制造公差。",
+    "87x58仅为额外宽视场敏感性试算，不宣称对应用户实际设备流内参。"
+  ],
+  "hardware_verification": "NOT VERIFIED",
+  "historical_only": true,
+  "superseded_by": "前盖光学扩口验证.json"
+}

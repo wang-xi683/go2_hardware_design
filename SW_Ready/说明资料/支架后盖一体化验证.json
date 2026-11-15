@@ -1,0 +1,49 @@
+{
+  "valid_single_solid": true,
+  "rear_thickness_mm": 6,
+  "support_thickness_mm": 6,
+  "rear_inside_x_mm": 199.15,
+  "rear_outside_x_mm": 193.15,
+  "original_seam_z_interval_mm": [
+    106,
+    107
+  ],
+  "seam_void_volume_mm3": 0,
+  "other_part_overlap": [
+    {
+      "part": "圆弧中间连接件",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "雷达支撑件",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "雷达转接件",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "D435i深度相机",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "相机保护主壳",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "相机前保护框",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "雷达延长板",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "remaining_component_transforms_unchanged": 24,
+  "total_components": 25,
+  "optical_origin_mm": [
+    220,
+    0,
+    100
+  ]
+}

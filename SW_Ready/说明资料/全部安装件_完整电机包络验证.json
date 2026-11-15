@@ -1,0 +1,78 @@
+{
+  "48": [
+    {
+      "component": "带保护壳的深度相机-1/相机前保护框-1",
+      "occupied_motor_voxel_centers_inside_CAD": 0,
+      "overlap_bbox_robot_mm": null
+    },
+    {
+      "component": "带保护壳的深度相机-1/D435i深度相机-1",
+      "occupied_motor_voxel_centers_inside_CAD": 0,
+      "overlap_bbox_robot_mm": null
+    },
+    {
+      "component": "带保护壳的深度相机-1/相机保护主壳-1",
+      "occupied_motor_voxel_centers_inside_CAD": 0,
+      "overlap_bbox_robot_mm": null
+    },
+    {
+      "component": "雷达支撑件-1",
+      "occupied_motor_voxel_centers_inside_CAD": 0,
+      "overlap_bbox_robot_mm": null
+    },
+    {
+      "component": "相机支架与后盖一体件-1",
+      "occupied_motor_voxel_centers_inside_CAD": 0,
+      "overlap_bbox_robot_mm": null
+    },
+    {
+      "component": "雷达延长板_三段圆角-1",
+      "occupied_motor_voxel_centers_inside_CAD": 0,
+      "overlap_bbox_robot_mm": null
+    }
+  ],
+  "60": [
+    {
+      "component": "带保护壳的深度相机-1/相机前保护框-1",
+      "occupied_motor_voxel_centers_inside_CAD": 0,
+      "overlap_bbox_robot_mm": null
+    },
+    {
+      "component": "带保护壳的深度相机-1/D435i深度相机-1",
+      "occupied_motor_voxel_centers_inside_CAD": 0,
+      "overlap_bbox_robot_mm": null
+    },
+    {
+      "component": "带保护壳的深度相机-1/相机保护主壳-1",
+      "occupied_motor_voxel_centers_inside_CAD": 0,
+      "overlap_bbox_robot_mm": null
+    },
+    {
+      "component": "雷达支撑件-1",
+      "occupied_motor_voxel_centers_inside_CAD": 0,
+      "overlap_bbox_robot_mm": null
+    },
+    {
+      "component": "相机支架与后盖一体件-1",
+      "occupied_motor_voxel_centers_inside_CAD": 0,
+      "overlap_bbox_robot_mm": null
+    },
+    {
+      "component": "雷达延长板_三段圆角-1",
+      "occupied_motor_voxel_centers_inside_CAD": 199,
+      "overlap_bbox_robot_mm": [
+        [
+          180.0,
+          -19.0,
+          46.0
+        ],
+        [
+          206.0,
+          19.0,
+          47.0
+        ]
+      ]
+    }
+  ],
+  "scope": "Full lateral original sampled sweep,1mm voxel centers vs exact active mounting CAD. Positive counts prove sampled overlap; zero counts do not certify subvoxel clearance. Robot components excluded, suppressed radar adapter excluded."
+}

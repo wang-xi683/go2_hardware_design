@@ -1,0 +1,19 @@
+{
+  "extension_arc": {
+    "common_volume_mm3": 0.0,
+    "minimum_distance_mm": 0.0
+  },
+  "camera_bracket_arc": {
+    "common_volume_mm3": 0.0,
+    "minimum_distance_mm": 7.105427357601002e-15
+  },
+  "extension_camera_bracket": {
+    "common_volume_mm3": 0.0,
+    "minimum_distance_mm": 6.000000000000007
+  },
+  "three_parts_two_mating_holes_coaxial": true,
+  "arc_bend_start_robot_X_mm": 222.278378746,
+  "extension_end_robot_X_mm": 222.078378746,
+  "arc_most_forward_X_mm": 244,
+  "scope": "Geometric fit of extension, middle arc and camera bracket only; not all robot components or fastener verification."
+}

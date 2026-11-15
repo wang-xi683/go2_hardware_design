@@ -1,0 +1,74 @@
+{
+  "components": 25,
+  "top_level": 22,
+  "sub_components": 3,
+  "all_scale_1": true,
+  "rotation_orthogonality_and_det1": true,
+  "rpy_matrix_reconstruction": true,
+  "parent_global_recomposition": true,
+  "hip_origin_average_mm": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "depth_optical_origin_robot_mm": [
+    220.00000000000003,
+    0.0,
+    100.0
+  ],
+  "depth_optical_orientation_robot": {
+    "translation_mm": [
+      220.00000000000003,
+      0.0,
+      100.0
+    ],
+    "rpy_deg": [
+      -90.0,
+      0.0,
+      -90.0
+    ],
+    "quaternion_xyzw": [
+      -0.5,
+      0.5,
+      -0.5,
+      0.5
+    ],
+    "matrix_4x4_mm": [
+      [
+        0.0,
+        0.0,
+        1.0,
+        220.00000000000003
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        100.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "relative_pose_pairs": 19,
+  "known_hole_axis_points": 16,
+  "geometry_modified": false,
+  "csv_json_consistent": true,
+  "documented_python_example": "PASS",
+  "all_model_paths_resolve": true,
+  "renamed_original_connectors_references_repaired": true,
+  "integration_update": "无缝6mm一体件替换支架和后盖，光学坐标保持",
+  "historical_snapshot": true,
+  "current_alignment_verification": "相机与中间件孔位对齐验证.json",
+  "current_assembly_transforms": "当前孔位对齐装配变换.json"
+}

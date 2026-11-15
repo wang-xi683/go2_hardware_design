@@ -1,0 +1,191 @@
+{
+  "main_housing_unchanged_sha256": "2c90a0b50f452f68d9a814068ed769fd6ca832052cf67f7715b93efdfe5b1d95",
+  "cover_outline_follows_actual_main_profile_camera_mm": [
+    [
+      -45,
+      -18
+    ],
+    [
+      -50.5,
+      -18
+    ],
+    [
+      -50.5,
+      -12.5
+    ],
+    [
+      -49,
+      -12.5
+    ],
+    [
+      -49,
+      12.5
+    ],
+    [
+      -50.5,
+      12.5
+    ],
+    [
+      -50.5,
+      18
+    ],
+    [
+      -45,
+      18
+    ],
+    [
+      -45,
+      16.5
+    ],
+    [
+      45,
+      16.5
+    ],
+    [
+      45,
+      18
+    ],
+    [
+      50.5,
+      18
+    ],
+    [
+      50.5,
+      12.5
+    ],
+    [
+      49,
+      12.5
+    ],
+    [
+      49,
+      -12.5
+    ],
+    [
+      50.5,
+      -12.5
+    ],
+    [
+      50.5,
+      -18
+    ],
+    [
+      45,
+      -18
+    ],
+    [
+      45,
+      -16.5
+    ],
+    [
+      -45,
+      -16.5
+    ]
+  ],
+  "main_nominal_rectangle_mm": [
+    98,
+    33
+  ],
+  "corner_reinforced_envelope_mm": [
+    101,
+    36
+  ],
+  "front_thickness_mm": 6,
+  "rear_thickness_mm": 6,
+  "front_camera_z_interval_mm": [
+    0,
+    6
+  ],
+  "rear_camera_z_interval_mm": [
+    -31.05,
+    -25.05
+  ],
+  "front_outer_world_x_mm": 230.2,
+  "all_mating_holes_mm": 3,
+  "front_expected_actual_difference_mm3": [
+    0.0,
+    0.0
+  ],
+  "rear_seam_void_volume_mm3": 0,
+  "cad_interference_checks": [
+    {
+      "part_a": "相机前保护框",
+      "part_b": "圆弧中间连接件",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机前保护框",
+      "part_b": "雷达支撑件",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机前保护框",
+      "part_b": "雷达转接件",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机前保护框",
+      "part_b": "D435i深度相机",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机前保护框",
+      "part_b": "相机保护主壳",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机前保护框",
+      "part_b": "雷达延长板",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机前保护框",
+      "part_b": "相机支架与后盖一体件",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机支架与后盖一体件",
+      "part_b": "圆弧中间连接件",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机支架与后盖一体件",
+      "part_b": "雷达支撑件",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机支架与后盖一体件",
+      "part_b": "雷达转接件",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机支架与后盖一体件",
+      "part_b": "D435i深度相机",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机支架与后盖一体件",
+      "part_b": "相机保护主壳",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机支架与后盖一体件",
+      "part_b": "相机前保护框",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part_a": "相机支架与后盖一体件",
+      "part_b": "雷达延长板",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "optical_origin_robot_mm": [
+    220,
+    0,
+    100
+  ],
+  "optical_FOV": "PASS for wmp_go2 58x58 nominal pinhole/CAD; hardware NOT VERIFIED",
+  "all_25_component_transforms_unchanged": true,
+  "main_housing_native_file_unchanged": true,
+  "FOV_report": "前盖FOV验证说明.md"
+}

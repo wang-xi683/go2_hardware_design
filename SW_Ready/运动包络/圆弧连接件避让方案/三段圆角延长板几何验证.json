@@ -1,0 +1,138 @@
+{
+  "single_valid_solid": true,
+  "bbox_robot_mm": [
+    82.07837874609643,
+    -44.0,
+    45.65607091050955,
+    222.07837874609643,
+    44.0,
+    47.65607091050955
+  ],
+  "length_mm": 140,
+  "thickness_mm": 2,
+  "widths_mm": [
+    88,
+    30,
+    24
+  ],
+  "rear_and_central_holes_preserved": true,
+  "mating_holes_diameter_mm": 3.2,
+  "mating_holes_XY_mm": [
+    [
+      209.57858663,
+      -7
+    ],
+    [
+      209.57858663,
+      7
+    ]
+  ],
+  "tip_notch_removed": true,
+  "central_diameter5_retained": true,
+  "holes": [
+    {
+      "diameter_mm": 3.1999999999999806,
+      "axis_anchor_local_mm": [
+        209.57858663000002,
+        -7.0,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 3.1999999999999806,
+      "axis_anchor_local_mm": [
+        209.57858663000002,
+        7.0,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 5.000000000000004,
+      "axis_anchor_local_mm": [
+        209.57837874609643,
+        0.0,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 4.0000000000000036,
+      "axis_anchor_local_mm": [
+        114.57837874609643,
+        0.0,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 3.0000000000000027,
+      "axis_anchor_local_mm": [
+        84.57837874609643,
+        -36.0,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 3.0000000000000027,
+      "axis_anchor_local_mm": [
+        84.57837874609643,
+        36.0,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 2.3999999999999577,
+      "axis_anchor_local_mm": [
+        166.2,
+        -13.2,
+        0.0
+      ],
+      "axis_local": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 2.3999999999999577,
+      "axis_anchor_local_mm": [
+        166.2,
+        13.2,
+        0.0
+      ],
+      "axis_local": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ]
+}

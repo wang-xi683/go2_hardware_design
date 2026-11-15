@@ -1,0 +1,230 @@
+{
+  "checks": [
+    {
+      "Y": -9,
+      "Z": -12,
+      "envelope": "head",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": -12,
+      "envelope": "head",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": -12,
+      "envelope": "nut",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": -12,
+      "envelope": "nut",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": -12,
+      "envelope": "front_nut_tool",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": -12,
+      "envelope": "front_nut_tool",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": -12,
+      "envelope": "rear_hex_key",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": -12,
+      "envelope": "rear_hex_key",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": 12,
+      "envelope": "head",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": 12,
+      "envelope": "head",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": 12,
+      "envelope": "nut",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": 12,
+      "envelope": "nut",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": 12,
+      "envelope": "front_nut_tool",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": 12,
+      "envelope": "front_nut_tool",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": 12,
+      "envelope": "rear_hex_key",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": -9,
+      "Z": 12,
+      "envelope": "rear_hex_key",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": -12,
+      "envelope": "head",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": -12,
+      "envelope": "head",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": -12,
+      "envelope": "nut",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": -12,
+      "envelope": "nut",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": -12,
+      "envelope": "front_nut_tool",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": -12,
+      "envelope": "front_nut_tool",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": -12,
+      "envelope": "rear_hex_key",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": -12,
+      "envelope": "rear_hex_key",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": 12,
+      "envelope": "head",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": 12,
+      "envelope": "head",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": 12,
+      "envelope": "nut",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": 12,
+      "envelope": "nut",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": 12,
+      "envelope": "front_nut_tool",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": 12,
+      "envelope": "front_nut_tool",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": 12,
+      "envelope": "rear_hex_key",
+      "part": "middle",
+      "overlap_mm3": 0.0
+    },
+    {
+      "Y": 9,
+      "Z": 12,
+      "envelope": "rear_hex_key",
+      "part": "adapter",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "four_axes_coaxial": true,
+  "scope": "Virtual envelope only: head5.5x3, nut across-corners6.35 height2.4, front socket6.35, rear key3. No hardware strength or final fastener selection certification."
+}

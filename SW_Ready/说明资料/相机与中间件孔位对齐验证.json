@@ -1,0 +1,152 @@
+{
+  "camera_base_holes": [
+    {
+      "diameter_mm": 3.1999999999999806,
+      "axis_anchor_local_mm": [
+        209.57858663029637,
+        -6.999999999999999,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 3.1999999999999806,
+      "axis_anchor_local_mm": [
+        209.57858663029637,
+        6.999999999999999,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    }
+  ],
+  "arc_upper_holes": [
+    {
+      "diameter_mm": 3.1999999999999806,
+      "axis_anchor_local_mm": [
+        209.57858663000002,
+        -7.0,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 3.1999999999999806,
+      "axis_anchor_local_mm": [
+        209.57858663000002,
+        7.0,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    }
+  ],
+  "hole_spacing_mm": 14,
+  "diameter_mm": 3.2,
+  "hole_axes_coaxial_within_mm": 1e-06,
+  "true_void_and_surrounding_wall_verified": true,
+  "old_Y20_regions_removed_by_rectangular_relief": true,
+  "camera_arc_common_volume_mm3": 0.0,
+  "scope": "Mating holes and solid fit only; old radar adapter suppressed; camera lower side relief added; mating holes unchanged",
+  "installation_clearance_envelopes": [
+    {
+      "Y_mm": -7,
+      "envelope": "head_clearance_envelope",
+      "part": "camera_bracket",
+      "intersection_mm3": 0.0,
+      "distance_mm": 0.00999999999044121
+    },
+    {
+      "Y_mm": -7,
+      "envelope": "head_clearance_envelope",
+      "part": "arc",
+      "intersection_mm3": 0.0,
+      "distance_mm": 6.009999999990448
+    },
+    {
+      "Y_mm": -7,
+      "envelope": "driver_clearance_envelope",
+      "part": "camera_bracket",
+      "intersection_mm3": 0.0,
+      "distance_mm": 0.8250000000000002
+    },
+    {
+      "Y_mm": -7,
+      "envelope": "driver_clearance_envelope",
+      "part": "arc",
+      "intersection_mm3": 0.0,
+      "distance_mm": 9.009999999990448
+    },
+    {
+      "Y_mm": -7,
+      "envelope": "underside_nut_clearance_envelope",
+      "part": "camera_bracket",
+      "intersection_mm3": 0.0,
+      "distance_mm": 6.010000000009555
+    },
+    {
+      "Y_mm": -7,
+      "envelope": "underside_nut_clearance_envelope",
+      "part": "arc",
+      "intersection_mm3": 0.0,
+      "distance_mm": 0.010000000009547705
+    },
+    {
+      "Y_mm": 7,
+      "envelope": "head_clearance_envelope",
+      "part": "camera_bracket",
+      "intersection_mm3": 0.0,
+      "distance_mm": 0.00999999999044121
+    },
+    {
+      "Y_mm": 7,
+      "envelope": "head_clearance_envelope",
+      "part": "arc",
+      "intersection_mm3": 0.0,
+      "distance_mm": 6.009999999990448
+    },
+    {
+      "Y_mm": 7,
+      "envelope": "driver_clearance_envelope",
+      "part": "camera_bracket",
+      "intersection_mm3": 0.0,
+      "distance_mm": 0.8250000000000002
+    },
+    {
+      "Y_mm": 7,
+      "envelope": "driver_clearance_envelope",
+      "part": "arc",
+      "intersection_mm3": 0.0,
+      "distance_mm": 9.009999999990448
+    },
+    {
+      "Y_mm": 7,
+      "envelope": "underside_nut_clearance_envelope",
+      "part": "camera_bracket",
+      "intersection_mm3": 0.0,
+      "distance_mm": 6.010000000009555
+    },
+    {
+      "Y_mm": 7,
+      "envelope": "underside_nut_clearance_envelope",
+      "part": "arc",
+      "intersection_mm3": 0.0,
+      "distance_mm": 0.010000000009547705
+    }
+  ],
+  "installation_clearance_scope": "Virtual head diameter5.5 height3, driver diameter6.35 height20, underside nut cylinder diameter6.35 height2.4; not selected hardware or strength certification. No 12mm socket clearance claim."
+}

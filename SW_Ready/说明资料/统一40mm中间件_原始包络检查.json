@@ -1,0 +1,26 @@
+{
+  "48": {
+    "width_mm": 40,
+    "minimum_distance_to_sampled_raw_envelope_mm": 0.8683112010557927,
+    "critical_slab": {
+      "Y_range_mm": [
+        -21.5,
+        -20.5
+      ],
+      "XZ_distance_mm": 0.7099044596838037,
+      "max_width_for_2mm_clearance_mm": 37.26046224347391
+    }
+  },
+  "60": {
+    "width_mm": 40,
+    "minimum_distance_to_sampled_raw_envelope_mm": 0.0,
+    "critical_slab": {
+      "Y_range_mm": [
+        -20.5,
+        -19.5
+      ],
+      "XZ_distance_mm": 0.0,
+      "max_width_for_2mm_clearance_mm": 35.0
+    }
+  }
+}

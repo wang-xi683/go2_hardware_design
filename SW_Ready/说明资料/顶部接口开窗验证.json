@@ -1,0 +1,50 @@
+{
+  "valid_single_solid": true,
+  "opening_length_mm": 22,
+  "opening_width_mm": 6,
+  "opening_end_radius_mm": 3,
+  "opening_center_camera_local_mm": [
+    0,
+    12.5,
+    -20.82
+  ],
+  "opening_center_robot_inner_face_mm": [
+    203.38,
+    -17.5,
+    112.5
+  ],
+  "opening_robot_through_z_mm": [
+    112.5,
+    116.5
+  ],
+  "top_vents_shortened_x_mm": [
+    -10,
+    0,
+    10
+  ],
+  "vent_window_separation_mm": 1.32,
+  "planned_boolean_difference_mm3": [
+    0.0,
+    0.0
+  ],
+  "overlap_mm3": {
+    "D435i深度相机": 0.0,
+    "相机前保护框": 0.0,
+    "相机保护后盖": 0.0
+  },
+  "nominal_connector_envelope_blocked_mm3": 0.0,
+  "camera_pose_changed": false,
+  "actual_cable_plug_fit": "NOT VERIFIED: actual plug/backshell dimensions not provided",
+  "all_26_component_transforms_unchanged": true,
+  "native_features": "5个凸台-拉伸、6个切除-拉伸；默认中文名",
+  "depth_optical_origin_robot_mm": [
+    220,
+    0,
+    100
+  ],
+  "subsequent_hole_update": "相机相关孔统一φ3；体积与外形更新以孔径修改几何验证.json为准；原加强筋/开窗尺寸及位姿保持。",
+  "initial_operation_volume_before_after_mm3": [
+    14158.307023493482,
+    13927.609687964234
+  ]
+}

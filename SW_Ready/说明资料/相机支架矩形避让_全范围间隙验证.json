@@ -1,0 +1,31 @@
+{
+  "48": {
+    "sampled_surface_to_expanded_voxel_center_distance_mm": 4.729368179058757,
+    "conservative_surface_gap_lower_estimate_mm": 3.263268179058757,
+    "bracket_point_robot_mm": [
+      198.9916129734205,
+      20.0,
+      53.656070709228516
+    ],
+    "envelope_voxel_center_mm": [
+      199.0,
+      23.0,
+      50.0
+    ]
+  },
+  "60": {
+    "sampled_surface_to_expanded_voxel_center_distance_mm": 0.00924809360641146,
+    "conservative_surface_gap_lower_estimate_mm": -1.4568519063935887,
+    "bracket_point_robot_mm": [
+      198.9916129734205,
+      20.0,
+      56.00389679618504
+    ],
+    "envelope_voxel_center_mm": [
+      199.0,
+      20.0,
+      56.0
+    ]
+  },
+  "scope": "Full lateral left/right union, 1mm sampled voxels expanded3mm; CAD tessellation0.05mm and surface sampling0.55mm. Lower estimate deducts voxel half diagonal and sampling/tessellation allowances; no continuous source sweep error bound."
+}

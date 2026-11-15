@@ -1,0 +1,62 @@
+[
+  {
+    "part": "圆弧中间连接件",
+    "valid_single_solid": true,
+    "planned_actual_difference_mm3": [
+      0.0,
+      0.0
+    ],
+    "volume_before_after_mm3": [
+      87438.82294607637,
+      87469.4534744465
+    ]
+  },
+  {
+    "part": "相机连接支架",
+    "valid_single_solid": true,
+    "planned_actual_difference_mm3": [
+      0.0,
+      0.0
+    ],
+    "volume_before_after_mm3": [
+      29853.687684074463,
+      29884.318212446957
+    ]
+  },
+  {
+    "part": "相机保护主壳",
+    "valid_single_solid": true,
+    "planned_actual_difference_mm3": [
+      0.0,
+      0.0
+    ],
+    "volume_before_after_mm3": [
+      13927.609687964234,
+      15028.080600718937
+    ]
+  },
+  {
+    "part": "相机保护后盖",
+    "valid_single_solid": true,
+    "planned_actual_difference_mm3": [
+      0.0,
+      0.0
+    ],
+    "volume_before_after_mm3": [
+      6446.384074669867,
+      6407.176998353068
+    ]
+  },
+  {
+    "part": "相机前保护框",
+    "valid_single_solid": true,
+    "planned_actual_difference_mm3": [
+      0.0,
+      0.0
+    ],
+    "volume_before_after_mm3": [
+      3017.58938311325,
+      2991.4513322353832
+    ]
+  }
+]

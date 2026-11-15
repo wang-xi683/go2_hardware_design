@@ -1,0 +1,53 @@
+{
+  "part": "雷达延长板",
+  "robot_bbox_mm": [
+    [
+      82.07837677001953,
+      -67.0,
+      45.656070709228516
+    ],
+    [
+      222.07838439941406,
+      67.0,
+      47.656070709228516
+    ]
+  ],
+  "geometry_and_pose_unchanged": true,
+  "tests": {
+    "48": {
+      "overlap_mm3_approx": 125,
+      "maximum_inside_voxel_depth_mm": 2.8284271247461903,
+      "overlap_bbox_robot_mm": [
+        [
+          196.0,
+          -26.0,
+          46.0
+        ],
+        [
+          209.0,
+          26.0,
+          48.0
+        ]
+      ],
+      "voxel_centers_strictly_inside_exact_plate_solid": 60
+    },
+    "60": {
+      "overlap_mm3_approx": 1064,
+      "maximum_inside_voxel_depth_mm": 7.810249675906654,
+      "overlap_bbox_robot_mm": [
+        [
+          178.0,
+          -26.0,
+          46.0
+        ],
+        [
+          220.0,
+          26.0,
+          48.0
+        ]
+      ],
+      "voxel_centers_strictly_inside_exact_plate_solid": 663
+    }
+  },
+  "limitations": "1mm voxel approximation against current hip-link envelopes; not exact CAD or physical measurement."
+}

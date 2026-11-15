@@ -1,0 +1,326 @@
+当前工程特征检查；英文API类型不是自定义特征名。
+FILE SW_Ready\零件\原始连接件\雷达延长板.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+草图2 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸1 | Cut | ICE | Extrude=True
+  depth=0 reverse=False both=False
+  child=草图2 ProfileFeature
+FILE SW_Ready\零件\原始连接件\雷达支撑件.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+基准面2 | RefPlane | RefPlane | Extrude=False
+基准面3 | RefPlane | RefPlane | Extrude=False
+草图4 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸2 | Cut | ICE | Extrude=True
+  depth=0 reverse=False both=False
+  child=草图4 ProfileFeature
+基准面4 | RefPlane | RefPlane | Extrude=False
+草图5 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸3 | Cut | ICE | Extrude=True
+  depth=0 reverse=False both=False
+  child=草图5 ProfileFeature
+草图6 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸2 | Boss | ICE | Extrude=True
+  depth=0.09 reverse=False both=False
+  child=草图6 ProfileFeature
+草图7 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸5 | Cut | ICE | Extrude=True
+  depth=0 reverse=False both=False
+  child=草图7 ProfileFeature
+草图8 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸6 | Cut | ICE | Extrude=True
+  depth=0 reverse=True both=False
+  child=草图8 ProfileFeature
+草图9 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸3 | Boss | ICE | Extrude=True
+  depth=0.03732 reverse=False both=False
+  child=草图9 ProfileFeature
+草图3 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸1 | Cut | ICE | Extrude=True
+  depth=0 reverse=False both=False
+  child=草图3 ProfileFeature
+草图10 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸7 | Cut | ICE | Extrude=True
+  depth=0 reverse=False both=False
+  child=草图10 ProfileFeature
+草图11 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸8 | Cut | ICE | Extrude=True
+  depth=0 reverse=False both=False
+  child=草图11 ProfileFeature
+FILE SW_Ready\零件\机器人\大腿.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+FILE SW_Ready\零件\机器人\小腿.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+FILE SW_Ready\零件\机器人\机身与原厂雷达一体模型.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+FILE SW_Ready\零件\机器人\足端.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+FILE SW_Ready\零件\机器人\镜像大腿.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+FILE SW_Ready\零件\机器人\镜像小腿.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+FILE SW_Ready\零件\机器人\髋关节.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+FILE SW_Ready\零件\相机\D435i深度相机.SLDPRT
+XY | RefPlane | RefPlane | Extrude=False
+XZ | RefPlane | RefPlane | Extrude=False
+YZ | RefPlane | RefPlane | Extrude=False
+FILE SW_Ready\零件\相机\相机保护主壳.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+3D草图1 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面1 | RefPlane | RefPlane | Extrude=False
+草图1 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸1 | Extrusion | Extrusion | Extrude=True
+  depth=0.02505 reverse=False both=False
+  child=草图1 ProfileFeature
+3D草图2 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面2 | RefPlane | RefPlane | Extrude=False
+草图2 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸2 | Boss | ICE | Extrude=True
+  depth=0.02505 reverse=False both=False
+  child=草图2 ProfileFeature
+3D草图3 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面3 | RefPlane | RefPlane | Extrude=False
+草图3 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸3 | Boss | ICE | Extrude=True
+  depth=0.02505 reverse=False both=False
+  child=草图3 ProfileFeature
+3D草图4 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面4 | RefPlane | RefPlane | Extrude=False
+草图4 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸4 | Boss | ICE | Extrude=True
+  depth=0.02505 reverse=False both=False
+  child=草图4 ProfileFeature
+3D草图5 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面5 | RefPlane | RefPlane | Extrude=False
+草图5 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸5 | Boss | ICE | Extrude=True
+  depth=0.02505 reverse=False both=False
+  child=草图5 ProfileFeature
+3D草图6 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面6 | RefPlane | RefPlane | Extrude=False
+草图6 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸1 | Cut | ICE | Extrude=True
+  depth=0.02505 reverse=True both=False
+  child=草图6 ProfileFeature
+3D草图7 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面7 | RefPlane | RefPlane | Extrude=False
+草图7 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸2 | Cut | ICE | Extrude=True
+  depth=0.004 reverse=True both=False
+  child=草图7 ProfileFeature
+3D草图8 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面8 | RefPlane | RefPlane | Extrude=False
+草图8 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸3 | Cut | ICE | Extrude=True
+  depth=0.004 reverse=True both=False
+  child=草图8 ProfileFeature
+3D草图9 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面9 | RefPlane | RefPlane | Extrude=False
+草图9 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸4 | Cut | ICE | Extrude=True
+  depth=0.004 reverse=True both=False
+  child=草图9 ProfileFeature
+3D草图10 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面10 | RefPlane | RefPlane | Extrude=False
+草图10 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸5 | Cut | ICE | Extrude=True
+  depth=0.02505 reverse=True both=False
+  child=草图10 ProfileFeature
+3D草图11 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面11 | RefPlane | RefPlane | Extrude=False
+草图11 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸6 | Cut | ICE | Extrude=True
+  depth=0.004 reverse=True both=False
+  child=草图11 ProfileFeature
+FILE SW_Ready\零件\相机\相机前保护框.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+3D草图1 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面1 | RefPlane | RefPlane | Extrude=False
+草图1 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸1 | Extrusion | Extrusion | Extrude=True
+  depth=0.006 reverse=False both=False
+  child=草图1 ProfileFeature
+3D草图2 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面2 | RefPlane | RefPlane | Extrude=False
+草图2 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸1 | Cut | ICE | Extrude=True
+  depth=0.006 reverse=True both=False
+  child=草图2 ProfileFeature
+FILE SW_Ready\零件\连接件\圆弧中间连接件.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+3D草图1 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面1 | RefPlane | RefPlane | Extrude=False
+草图1 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸1 | Extrusion | Extrusion | Extrude=True
+  depth=0.09 reverse=True both=False
+  child=草图1 ProfileFeature
+3D草图2 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面2 | RefPlane | RefPlane | Extrude=False
+草图2 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸2 | Boss | ICE | Extrude=True
+  depth=0.09 reverse=True both=False
+  child=草图2 ProfileFeature
+3D草图3 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面3 | RefPlane | RefPlane | Extrude=False
+草图3 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸3 | Boss | ICE | Extrude=True
+  depth=0.09 reverse=True both=False
+  child=草图3 ProfileFeature
+3D草图4 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面4 | RefPlane | RefPlane | Extrude=False
+草图4 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸4 | Boss | ICE | Extrude=True
+  depth=0.006 reverse=True both=False
+  child=草图4 ProfileFeature
+3D草图5 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面5 | RefPlane | RefPlane | Extrude=False
+草图5 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸5 | Boss | ICE | Extrude=True
+  depth=0.006 reverse=False both=False
+  child=草图5 ProfileFeature
+3D草图6 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面6 | RefPlane | RefPlane | Extrude=False
+草图6 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸1 | Cut | ICE | Extrude=True
+  depth=0.008 reverse=False both=False
+  child=草图6 ProfileFeature
+3D草图7 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面7 | RefPlane | RefPlane | Extrude=False
+草图7 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸2 | Cut | ICE | Extrude=True
+  depth=0.008 reverse=True both=False
+  child=草图7 ProfileFeature
+3D草图8 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面8 | RefPlane | RefPlane | Extrude=False
+草图8 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸3 | Cut | ICE | Extrude=True
+  depth=0.06 reverse=True both=False
+  child=草图8 ProfileFeature
+3D草图9 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面9 | RefPlane | RefPlane | Extrude=False
+草图9 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸6 | Boss | ICE | Extrude=True
+  depth=0.09 reverse=True both=False
+  child=草图9 ProfileFeature
+FILE SW_Ready\零件\连接件\相机支架与后盖一体件.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+3D草图1 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面1 | RefPlane | RefPlane | Extrude=False
+草图1 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸1 | Extrusion | Extrusion | Extrude=True
+  depth=0.006 reverse=False both=False
+  child=草图1 ProfileFeature
+3D草图2 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面2 | RefPlane | RefPlane | Extrude=False
+草图2 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸1 | Cut | ICE | Extrude=True
+  depth=0.006 reverse=True both=False
+  child=草图2 ProfileFeature
+3D草图3 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面3 | RefPlane | RefPlane | Extrude=False
+草图3 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸2 | Cut | ICE | Extrude=True
+  depth=0.006 reverse=True both=False
+  child=草图3 ProfileFeature
+3D草图4 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面4 | RefPlane | RefPlane | Extrude=False
+草图4 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸3 | Cut | ICE | Extrude=True
+  depth=0.006 reverse=True both=False
+  child=草图4 ProfileFeature
+3D草图5 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面5 | RefPlane | RefPlane | Extrude=False
+草图5 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸2 | Boss | ICE | Extrude=True
+  depth=0.006 reverse=False both=False
+  child=草图5 ProfileFeature
+3D草图6 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面6 | RefPlane | RefPlane | Extrude=False
+草图6 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸3 | Boss | ICE | Extrude=True
+  depth=0.0543439290894904 reverse=False both=False
+  child=草图6 ProfileFeature
+3D草图7 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面7 | RefPlane | RefPlane | Extrude=False
+草图7 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸4 | Cut | ICE | Extrude=True
+  depth=0.006 reverse=False both=False
+  child=草图7 ProfileFeature
+3D草图8 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面8 | RefPlane | RefPlane | Extrude=False
+草图8 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸5 | Cut | ICE | Extrude=True
+  depth=0.006 reverse=False both=False
+  child=草图8 ProfileFeature
+3D草图9 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面9 | RefPlane | RefPlane | Extrude=False
+草图9 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸4 | Boss | ICE | Extrude=True
+  depth=0.006 reverse=False both=False
+  child=草图9 ProfileFeature
+3D草图10 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面10 | RefPlane | RefPlane | Extrude=False
+草图10 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸5 | Boss | ICE | Extrude=True
+  depth=0.006 reverse=False both=False
+  child=草图10 ProfileFeature
+FILE SW_Ready\零件\连接件\雷达支架V字型.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+草图2 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸1 | Cut | ICE | Extrude=True
+  depth=0 reverse=False both=False
+  child=草图2 ProfileFeature
+草图3 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸2 | Cut | ICE | Extrude=True
+  depth=0 reverse=False both=False
+  child=草图3 ProfileFeature
+FILE SW_Ready\零件\连接件\雷达转接件.SLDPRT
+前视基准面 | RefPlane | RefPlane | Extrude=False
+上视基准面 | RefPlane | RefPlane | Extrude=False
+右视基准面 | RefPlane | RefPlane | Extrude=False
+3D草图1 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面1 | RefPlane | RefPlane | Extrude=False
+草图1 | ProfileFeature | ProfileFeature | Extrude=False
+凸台-拉伸1 | Extrusion | Extrusion | Extrude=True
+  depth=0.084 reverse=True both=False
+  child=草图1 ProfileFeature
+3D草图2 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面2 | RefPlane | RefPlane | Extrude=False
+草图2 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸1 | Cut | ICE | Extrude=True
+  depth=0.08 reverse=True both=False
+  child=草图2 ProfileFeature
+3D草图3 | 3DProfileFeature | 3DProfileFeature | Extrude=False
+基准面3 | RefPlane | RefPlane | Extrude=False
+草图3 | ProfileFeature | ProfileFeature | Extrude=False
+切除-拉伸2 | Cut | ICE | Extrude=True
+  depth=0.08 reverse=True both=False
+  child=草图3 ProfileFeature

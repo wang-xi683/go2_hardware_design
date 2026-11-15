@@ -1,0 +1,41 @@
+{
+  "parts": [
+    {
+      "part": "圆弧中间连接件",
+      "valid": true,
+      "volume_before_after_mm3": [
+        87438.82294607637,
+        87438.82294607637
+      ],
+      "symmetric_difference_mm3": [
+        0.0,
+        0.0
+      ],
+      "max_bbox_difference_mm": 0.0
+    },
+    {
+      "part": "雷达转接件",
+      "valid": true,
+      "volume_before_after_mm3": [
+        43087.561397589576,
+        43087.561397589576
+      ],
+      "symmetric_difference_mm3": [
+        0.0,
+        0.0
+      ],
+      "max_bbox_difference_mm": 0.0
+    }
+  ],
+  "rebuilt_from_exact_profiles": true,
+  "default_chinese_names": true,
+  "assembly_components_unchanged": 26,
+  "max_transform_error_tolerance": 1e-09,
+  "original_custom_named_files_replaced_in_place": true,
+  "edit_test": "每件首个拉伸深度临时增加0.1mm，重建并恢复；恢复后质量属性一致。",
+  "depth_optical_origin_robot_mm": [
+    220,
+    0,
+    100
+  ]
+}

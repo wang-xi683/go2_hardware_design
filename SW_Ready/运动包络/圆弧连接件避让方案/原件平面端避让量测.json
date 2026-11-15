@@ -1,0 +1,65 @@
+{
+  "upper_plate": {
+    "intersection_volume_mm3_approx": 4593,
+    "overlap_bbox_robot_mm": [
+      [
+        197.0,
+        -45.0,
+        48.0
+      ],
+      [
+        231.0,
+        45.0,
+        54.0
+      ]
+    ],
+    "maximum_depth_inside_sweep_voxel_mm": 8.602325267042627,
+    "first_clear_translation_1mm_steps_mm": 11,
+    "translation_axis": 2,
+    "translation_sign": 1,
+    "first_clear_forward_translation_mm": 22,
+    "max_centered_full_width_with_no_overlap_at_original_position_mm": 36
+  },
+  "lower_plate": {
+    "intersection_volume_mm3_approx": 262,
+    "overlap_bbox_robot_mm": [
+      [
+        211.0,
+        -45.0,
+        -57.0
+      ],
+      [
+        221.0,
+        45.0,
+        -55.0
+      ]
+    ],
+    "maximum_depth_inside_sweep_voxel_mm": 2.8284271247461903,
+    "first_clear_translation_1mm_steps_mm": 3,
+    "translation_axis": 2,
+    "translation_sign": -1,
+    "first_clear_forward_translation_mm": 6,
+    "max_centered_full_width_with_no_overlap_at_original_position_mm": 50
+  },
+  "whole": {
+    "intersection_volume_mm3_approx": 17433,
+    "overlap_bbox_robot_mm": [
+      [
+        197.0,
+        -45.0,
+        -57.0
+      ],
+      [
+        241.0,
+        45.0,
+        54.0
+      ]
+    ],
+    "maximum_depth_inside_sweep_voxel_mm": 11.224972160321824,
+    "first_clear_translation_1mm_steps_mm": 22,
+    "translation_axis": 0,
+    "translation_sign": 1,
+    "first_clear_forward_translation_mm": 22,
+    "max_centered_full_width_with_no_overlap_at_original_position_mm": 36
+  }
+}

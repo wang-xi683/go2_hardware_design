@@ -1,0 +1,215 @@
+{
+  "part": "雷达支撑件",
+  "robot_bbox_mm": [
+    [
+      89.60198974609375,
+      -27.787294387817383,
+      -65.31849670410156
+    ],
+    [
+      216.9219970703125,
+      27.99995994567871,
+      -60.718505859375
+    ]
+  ],
+  "installation_unchanged": true,
+  "tests": {
+    "48": {
+      "original_overlap_mm3_approx": 0,
+      "overlap_bbox_mm": null,
+      "maximum_inside_voxel_distance_mm": 0,
+      "original_minimum_voxel_distance_mm": 14.7648230602334,
+      "front_narrowing_from_X170mm": [
+        {
+          "front_width_mm": 16,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 16.911534525287763
+        },
+        {
+          "front_width_mm": 20,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 16.911534525287763
+        },
+        {
+          "front_width_mm": 24,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 16.911534525287763
+        },
+        {
+          "front_width_mm": 26,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 16.911534525287763
+        },
+        {
+          "front_width_mm": 28,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 16.911534525287763
+        },
+        {
+          "front_width_mm": 30,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 16.278820596099706
+        },
+        {
+          "front_width_mm": 32,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 15.556349186104045
+        },
+        {
+          "front_width_mm": 36,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 14.7648230602334
+        },
+        {
+          "front_width_mm": 40,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 14.7648230602334
+        },
+        {
+          "front_width_mm": 44,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 14.7648230602334
+        },
+        {
+          "front_width_mm": 48,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 14.7648230602334
+        },
+        {
+          "front_width_mm": 52,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 14.7648230602334
+        },
+        {
+          "front_width_mm": 56,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 14.7648230602334
+        },
+        {
+          "front_width_mm": 60,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 14.7648230602334
+        },
+        {
+          "front_width_mm": 70,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 14.7648230602334
+        },
+        {
+          "front_width_mm": 80,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 14.7648230602334
+        },
+        {
+          "front_width_mm": 90,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 14.7648230602334
+        },
+        {
+          "front_width_mm": 100,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 14.7648230602334
+        }
+      ]
+    },
+    "60": {
+      "original_overlap_mm3_approx": 0,
+      "overlap_bbox_mm": null,
+      "maximum_inside_voxel_distance_mm": 0,
+      "original_minimum_voxel_distance_mm": 7.810249675906654,
+      "front_narrowing_from_X170mm": [
+        {
+          "front_width_mm": 16,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 10.44030650891055
+        },
+        {
+          "front_width_mm": 20,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 10.44030650891055
+        },
+        {
+          "front_width_mm": 24,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 10.44030650891055
+        },
+        {
+          "front_width_mm": 26,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 10.44030650891055
+        },
+        {
+          "front_width_mm": 28,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 10.295630140987
+        },
+        {
+          "front_width_mm": 30,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 9.433981132056603
+        },
+        {
+          "front_width_mm": 32,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 8.602325267042627
+        },
+        {
+          "front_width_mm": 36,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 7.810249675906654
+        },
+        {
+          "front_width_mm": 40,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 7.810249675906654
+        },
+        {
+          "front_width_mm": 44,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 7.810249675906654
+        },
+        {
+          "front_width_mm": 48,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 7.810249675906654
+        },
+        {
+          "front_width_mm": 52,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 7.810249675906654
+        },
+        {
+          "front_width_mm": 56,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 7.810249675906654
+        },
+        {
+          "front_width_mm": 60,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 7.810249675906654
+        },
+        {
+          "front_width_mm": 70,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 7.810249675906654
+        },
+        {
+          "front_width_mm": 80,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 7.810249675906654
+        },
+        {
+          "front_width_mm": 90,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 7.810249675906654
+        },
+        {
+          "front_width_mm": 100,
+          "overlap_grid_count": 0,
+          "minimum_voxel_center_distance_mm": 7.810249675906654
+        }
+      ]
+    }
+  },
+  "scope": "Original lower radar support, not arc lower flange; existing approximate 1mm sampled motor envelopes; original CAD not modified."
+}

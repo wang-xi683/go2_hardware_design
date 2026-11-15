@@ -1,0 +1,77 @@
+{
+  "48": [
+    {
+      "component": "圆弧中间连接件-1",
+      "distance_mm": 2.976137523156118,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "带保护壳的深度相机-1/相机前保护框-1",
+      "distance_mm": 45.48725096112097,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "带保护壳的深度相机-1/D435i深度相机-1",
+      "distance_mm": 45.0,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "带保护壳的深度相机-1/相机保护主壳-1",
+      "distance_mm": 41.0,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "雷达支撑件-1",
+      "distance_mm": 18.218506771090446,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "相机支架与后盖一体件-1",
+      "distance_mm": 11.156070910509555,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "雷达延长板_三段圆角-1",
+      "distance_mm": 3.1560709105095484,
+      "intersection_volume_mm3": 0
+    }
+  ],
+  "60": [
+    {
+      "component": "圆弧中间连接件-1",
+      "distance_mm": 2.252663439470147,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "带保护壳的深度相机-1/相机前保护框-1",
+      "distance_mm": 45.48725096112097,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "带保护壳的深度相机-1/D435i深度相机-1",
+      "distance_mm": 45.0,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "带保护壳的深度相机-1/相机保护主壳-1",
+      "distance_mm": 41.0,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "雷达支撑件-1",
+      "distance_mm": 18.218506771090446,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "相机支架与后盖一体件-1",
+      "distance_mm": 11.156070910509555,
+      "intersection_volume_mm3": 0
+    },
+    {
+      "component": "雷达延长板_三段圆角-1",
+      "distance_mm": 3.1560709105095484,
+      "intersection_volume_mm3": 0
+    }
+  ],
+  "scope": "Active sensor/mounting CAD solids only; excludes robot own moving geometry and suppressed radar adapter. Stored sampled envelope expanded3mm. Global assembly transforms applied once."
+}

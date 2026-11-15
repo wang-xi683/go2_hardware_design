@@ -1,0 +1,135 @@
+{
+  "rib_thickness_mm": 6,
+  "rib_triangle_legs_mm": [
+    16.0,
+    24.0
+  ],
+  "base_z_mm": 59.656070910509555,
+  "upright_contact_x_mm": 199.15,
+  "rib_y_intervals_mm": [
+    [
+      -38.5,
+      -32.5
+    ],
+    [
+      -2.5,
+      3.5
+    ]
+  ],
+  "added_ribs_volume_mm3": 2303.9999999999995,
+  "rib_other_part_overlap_mm3": {
+    "雷达延长板-1": 0.0,
+    "带保护壳的深度相机-1/D435i深度相机-1": 0.0,
+    "带保护壳的深度相机-1/相机保护主壳-1": 0.0,
+    "带保护壳的深度相机-1/相机保护后盖-1": 0.0,
+    "带保护壳的深度相机-1/相机前保护框-1": 0.0,
+    "圆弧中间连接件-1": 0.0,
+    "雷达支撑件-1": 0.0,
+    "雷达转接件-1": 0.0
+  },
+  "rib_other_part_min_distance_mm": {
+    "雷达延长板-1": 12.000000000000007,
+    "带保护壳的深度相机-1/D435i深度相机-1": 5.267544589734902,
+    "带保护壳的深度相机-1/相机保护主壳-1": 9.0,
+    "带保护壳的深度相机-1/相机保护后盖-1": 9.0,
+    "带保护壳的深度相机-1/相机前保护框-1": 19.646886916027842,
+    "圆弧中间连接件-1": 6.0,
+    "雷达支撑件-1": 120.3745776816,
+    "雷达转接件-1": 21.34508732830486
+  },
+  "screw_tool_radius_mm": 6,
+  "screw_tool_corridor_overlap_with_ribs_mm3": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "robot_mesh_bbox_checks": [
+    {
+      "component": "大腿-1",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "小腿-1",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "髋关节-1",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "髋关节-2",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "足端-3",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "镜像大腿-2",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "镜像小腿-2",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "镜像小腿-1",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "小腿-2",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "足端-4",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "足端-1",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "镜像大腿-1",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "足端-2",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "大腿-2",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "髋关节-3",
+      "AABB_disjoint": true
+    },
+    {
+      "component": "髋关节-4",
+      "AABB_disjoint": true
+    }
+  ],
+  "analysis_limit": "Clearance to new ribs only; actual fasteners/tools and strength NOT VERIFIED without specifications. Base bolts should be installed before camera.",
+  "valid_single_solid": true,
+  "planned_actual_boolean_difference_mm3": [
+    0.0,
+    0.0
+  ],
+  "original_material_removed_mm3": 0.0,
+  "all_26_component_transforms_unchanged": true,
+  "mounting_holes_unchanged": true,
+  "native_features": "4个凸台-拉伸、2个切除-拉伸；默认中文名",
+  "depth_optical_origin_robot_mm": [
+    220,
+    0,
+    100
+  ],
+  "subsequent_hole_update": "相机相关孔统一φ3；体积与外形更新以孔径修改几何验证.json为准；原加强筋/开窗尺寸及位姿保持。",
+  "initial_operation_volume_before_after_mm3": [
+    27549.68768407446,
+    29853.687684074463
+  ],
+  "historical_snapshot": true,
+  "current_revision": "加强筋居中调整验证.json"
+}

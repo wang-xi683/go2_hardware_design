@@ -1,0 +1,205 @@
+{
+  "original_front_tip_max_width_mm": 52,
+  "narrowing_from_robot_X_mm": 170,
+  "original_height_robot_Z_mm": [
+    45.65607091,
+    47.65607091
+  ],
+  "method": "1mm raster occupancy, 1degree angles, no physical guarantee",
+  "tests": {
+    "48": [
+      {
+        "width_mm": 16,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 4.58257569495584
+      },
+      {
+        "width_mm": 18,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 4.58257569495584
+      },
+      {
+        "width_mm": 20,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 4.58257569495584
+      },
+      {
+        "width_mm": 22,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 4.58257569495584
+      },
+      {
+        "width_mm": 24,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 4.58257569495584
+      },
+      {
+        "width_mm": 26,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 4.58257569495584
+      },
+      {
+        "width_mm": 28,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 4.58257569495584
+      },
+      {
+        "width_mm": 30,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 4.242640687119285
+      },
+      {
+        "width_mm": 32,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 3.605551275463989
+      },
+      {
+        "width_mm": 34,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 3.1622776601683795
+      },
+      {
+        "width_mm": 36,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 2.8284271247461903
+      },
+      {
+        "width_mm": 38,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 2.23606797749979
+      },
+      {
+        "width_mm": 40,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 1.4142135623730951
+      },
+      {
+        "width_mm": 42,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 1.0
+      },
+      {
+        "width_mm": 44,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 1.0
+      },
+      {
+        "width_mm": 46,
+        "overlap_grid_count": 12,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 48,
+        "overlap_grid_count": 40,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 50,
+        "overlap_grid_count": 70,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 52,
+        "overlap_grid_count": 104,
+        "min_voxel_center_distance_mm": 0.0
+      }
+    ],
+    "60": [
+      {
+        "width_mm": 16,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 3.4641016151377544
+      },
+      {
+        "width_mm": 18,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 3.4641016151377544
+      },
+      {
+        "width_mm": 20,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 3.4641016151377544
+      },
+      {
+        "width_mm": 22,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 3.4641016151377544
+      },
+      {
+        "width_mm": 24,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 3.4641016151377544
+      },
+      {
+        "width_mm": 26,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 3.4641016151377544
+      },
+      {
+        "width_mm": 28,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 2.8284271247461903
+      },
+      {
+        "width_mm": 30,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 2.0
+      },
+      {
+        "width_mm": 32,
+        "overlap_grid_count": 0,
+        "min_voxel_center_distance_mm": 1.0
+      },
+      {
+        "width_mm": 34,
+        "overlap_grid_count": 31,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 36,
+        "overlap_grid_count": 97,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 38,
+        "overlap_grid_count": 199,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 40,
+        "overlap_grid_count": 316,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 42,
+        "overlap_grid_count": 382,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 44,
+        "overlap_grid_count": 453,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 46,
+        "overlap_grid_count": 529,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 48,
+        "overlap_grid_count": 607,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 50,
+        "overlap_grid_count": 691,
+        "min_voxel_center_distance_mm": 0.0
+      },
+      {
+        "width_mm": 52,
+        "overlap_grid_count": 773,
+        "min_voxel_center_distance_mm": 0.0
+      }
+    ]
+  }
+}

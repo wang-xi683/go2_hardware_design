@@ -1,0 +1,30 @@
+{
+  "safe_envelope_dilation_mm": 3,
+  "safe_envelope_lateral_projection_Y_mm": [
+    -12.5,
+    12.5
+  ],
+  "intersection_mm3": 0.0,
+  "minimum_exact_distance_to_safe_reference_mm": 2.1361917093056917,
+  "safe_envelope_components": 1,
+  "candidate_valid": true,
+  "original_60deg_envelope_used": true,
+  "scope": "Exact CAD calculation versus 3mm-dilated conservative lateral projection of sampled voxel envelope; actual robot and continuous-source error bound NOT VERIFIED",
+  "regions": {
+    "lower": {
+      "intersection_mm3": 0.0,
+      "distance_mm": 12.218506671090445
+    },
+    "middle": {
+      "intersection_mm3": 0.0,
+      "distance_mm": 2.1361917093056917
+    },
+    "upper": {
+      "intersection_mm3": 0.0,
+      "distance_mm": 5.156070910509548
+    }
+  },
+  "limited_lateral_projection_only": true,
+  "global_width_evaluation": "当前紧凑轮廓最大宽度_1mm全侧向验证.json",
+  "clarification": "此处距离不含投影侧带之外的邻近包络，不能作为完整三维最小间距。24mm当前宽度全侧向参考间距约1.73mm。"
+}

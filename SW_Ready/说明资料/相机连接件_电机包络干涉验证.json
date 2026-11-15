@@ -1,0 +1,32 @@
+{
+  "48": {
+    "minimum_clearance_mm": 11.156070910509555,
+    "interference": false,
+    "nearest_bracket_point_robot_mm": [
+      204.5,
+      12.5,
+      53.656070910509555
+    ],
+    "nearest_envelope_point_robot_mm": [
+      204.5,
+      12.5,
+      42.5
+    ]
+  },
+  "60": {
+    "minimum_clearance_mm": 11.156070910509555,
+    "interference": false,
+    "nearest_bracket_point_robot_mm": [
+      204.5,
+      12.5,
+      53.656070910509555
+    ],
+    "nearest_envelope_point_robot_mm": [
+      204.5,
+      12.5,
+      42.5
+    ]
+  },
+  "scope": "Current camera bracket/rear-cover integrated STEP at robot identity transform versus stored left/right motor sampled safety envelopes expanded 3mm; not continuous-motion or physical certification.",
+  "status": "SUPERSEDED: central-band only; full lateral sweep DOES interfere. See 相机支架_完整电机包络补充验证.json"
+}

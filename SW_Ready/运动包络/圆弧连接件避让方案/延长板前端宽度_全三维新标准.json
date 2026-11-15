@@ -1,0 +1,779 @@
+{
+  "criterion": "3mm expanded sampled envelope plus >=2mm remaining CAD clearance",
+  "original_front_width_mm": 52,
+  "model_modified": false,
+  "tests": {
+    "48": [
+      {
+        "narrowing_start_X_mm": 170,
+        "width_mm": 24,
+        "minimum_CAD_clearance_mm": 0.48080533991498187,
+        "passes_2mm": false,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 0.0,
+            "spatial_distance_mm": 1.1560709104999987
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 0.4547698822332704,
+            "spatial_distance_mm": 0.48080533991498187
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 1.4547685373785946,
+            "spatial_distance_mm": 1.4547685373785946
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 2.5059778050360175,
+            "spatial_distance_mm": 2.5059778050360175
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 4.701306925170115,
+            "spatial_distance_mm": 4.701306925170115
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 6.481779680559363,
+            "spatial_distance_mm": 6.536488670181915
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 7.072020066947785,
+            "spatial_distance_mm": 7.308456903780473
+          }
+        ]
+      },
+      {
+        "narrowing_start_X_mm": 160,
+        "width_mm": 24,
+        "minimum_CAD_clearance_mm": 2.754360170730091,
+        "passes_2mm": true,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 2.5,
+            "spatial_distance_mm": 2.754360170730091
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 3.5,
+            "spatial_distance_mm": 3.5034780046554164
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 5.5,
+            "spatial_distance_mm": 5.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 6.5,
+            "spatial_distance_mm": 6.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 8.5,
+            "spatial_distance_mm": 8.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 9.5,
+            "spatial_distance_mm": 9.53741140499372
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 10.5,
+            "spatial_distance_mm": 10.660678894287376
+          }
+        ]
+      },
+      {
+        "narrowing_start_X_mm": 160,
+        "width_mm": 23,
+        "minimum_CAD_clearance_mm": 3.215042760229527,
+        "passes_2mm": true,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 3.0,
+            "spatial_distance_mm": 3.215042760229527
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 4.0,
+            "spatial_distance_mm": 4.003043608194182
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 6.0,
+            "spatial_distance_mm": 6.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 7.0,
+            "spatial_distance_mm": 7.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 9.0,
+            "spatial_distance_mm": 9.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 10.0,
+            "spatial_distance_mm": 10.03554763369216
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 11.0,
+            "spatial_distance_mm": 11.153478134066713
+          }
+        ]
+      },
+      {
+        "narrowing_start_X_mm": 160,
+        "width_mm": 22,
+        "minimum_CAD_clearance_mm": 3.685986970962363,
+        "passes_2mm": true,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 3.5,
+            "spatial_distance_mm": 3.685986970962363
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 4.5,
+            "spatial_distance_mm": 4.502705645398586
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 6.5,
+            "spatial_distance_mm": 6.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 7.5,
+            "spatial_distance_mm": 7.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 9.5,
+            "spatial_distance_mm": 9.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 10.5,
+            "spatial_distance_mm": 10.53386046557027
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 11.5,
+            "spatial_distance_mm": 11.646891194095716
+          }
+        ]
+      },
+      {
+        "narrowing_start_X_mm": 160,
+        "width_mm": 21,
+        "minimum_CAD_clearance_mm": 4.1637122799377355,
+        "passes_2mm": true,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 4.0,
+            "spatial_distance_mm": 4.1637122799377355
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 5.0,
+            "spatial_distance_mm": 5.0024352198808435
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 7.0,
+            "spatial_distance_mm": 7.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 8.0,
+            "spatial_distance_mm": 8.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 10.0,
+            "spatial_distance_mm": 10.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 11.0,
+            "spatial_distance_mm": 11.03232596998948
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 12.0,
+            "spatial_distance_mm": 12.140843236246168
+          }
+        ]
+      },
+      {
+        "narrowing_start_X_mm": 160,
+        "width_mm": 20,
+        "minimum_CAD_clearance_mm": 4.406192110699941,
+        "passes_2mm": true,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 4.251826544708768,
+            "spatial_distance_mm": 4.406192110699941
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 5.5,
+            "spatial_distance_mm": 5.502213929783565
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 7.5,
+            "spatial_distance_mm": 7.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 8.5,
+            "spatial_distance_mm": 8.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 10.5,
+            "spatial_distance_mm": 10.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 11.5,
+            "spatial_distance_mm": 11.530924347514569
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 12.5,
+            "spatial_distance_mm": 12.635271049213955
+          }
+        ]
+      }
+    ],
+    "60": [
+      {
+        "narrowing_start_X_mm": 170,
+        "width_mm": 24,
+        "minimum_CAD_clearance_mm": 0.0,
+        "passes_2mm": false,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 0.0,
+            "spatial_distance_mm": 1.1560709104999987
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 0.0,
+            "spatial_distance_mm": 0.15607091049999866
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 0.0,
+            "spatial_distance_mm": 0.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 0.45312984944617696,
+            "spatial_distance_mm": 0.45312984944617696
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 0.4547698822332704,
+            "spatial_distance_mm": 0.4547698822332704
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 0.6764338208677843,
+            "spatial_distance_mm": 1.0815632307535656
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 1.5390723623902418,
+            "spatial_distance_mm": 2.401836427356739
+          }
+        ]
+      },
+      {
+        "narrowing_start_X_mm": 160,
+        "width_mm": 24,
+        "minimum_CAD_clearance_mm": 1.2595633966197557,
+        "passes_2mm": false,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 0.5,
+            "spatial_distance_mm": 1.2595633966197557
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 1.5,
+            "spatial_distance_mm": 1.5080975197593485
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 1.5,
+            "spatial_distance_mm": 1.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 2.5,
+            "spatial_distance_mm": 2.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 2.5,
+            "spatial_distance_mm": 2.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 3.5,
+            "spatial_distance_mm": 3.600307807410958
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 4.5,
+            "spatial_distance_mm": 4.8631342246646145
+          }
+        ]
+      },
+      {
+        "narrowing_start_X_mm": 160,
+        "width_mm": 23,
+        "minimum_CAD_clearance_mm": 1.5285613988663642,
+        "passes_2mm": false,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 1.0,
+            "spatial_distance_mm": 1.5285613988663642
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 2.0,
+            "spatial_distance_mm": 2.0060802897950767
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 2.0,
+            "spatial_distance_mm": 2.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 3.0,
+            "spatial_distance_mm": 3.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 3.0,
+            "spatial_distance_mm": 3.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 4.0,
+            "spatial_distance_mm": 4.088057767217129
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 5.0,
+            "spatial_distance_mm": 5.329172026413137
+          }
+        ]
+      },
+      {
+        "narrowing_start_X_mm": 160,
+        "width_mm": 22,
+        "minimum_CAD_clearance_mm": 1.8938056790769997,
+        "passes_2mm": false,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 1.5,
+            "spatial_distance_mm": 1.8938056790769997
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 2.5,
+            "spatial_distance_mm": 2.5048668885001253
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 2.5,
+            "spatial_distance_mm": 2.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 3.5,
+            "spatial_distance_mm": 3.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 3.5,
+            "spatial_distance_mm": 3.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 4.5,
+            "spatial_distance_mm": 4.578451300178293
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 5.5,
+            "spatial_distance_mm": 5.8008684252536105
+          }
+        ]
+      },
+      {
+        "narrowing_start_X_mm": 160,
+        "width_mm": 21,
+        "minimum_CAD_clearance_mm": 2.3100865676645745,
+        "passes_2mm": true,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 2.0,
+            "spatial_distance_mm": 2.3100865676645745
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 3.0,
+            "spatial_distance_mm": 3.004056945050193
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 3.0,
+            "spatial_distance_mm": 3.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 4.0,
+            "spatial_distance_mm": 4.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 4.0,
+            "spatial_distance_mm": 4.0
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 5.0,
+            "spatial_distance_mm": 5.070721478064468
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 6.0,
+            "spatial_distance_mm": 6.276947863978504
+          }
+        ]
+      },
+      {
+        "narrowing_start_X_mm": 160,
+        "width_mm": 20,
+        "minimum_CAD_clearance_mm": 2.754360170730091,
+        "passes_2mm": true,
+        "layers": [
+          {
+            "safe_Z_slab_mm": [
+              43.5,
+              44.5
+            ],
+            "planar_distance_mm": 2.5,
+            "spatial_distance_mm": 2.754360170730091
+          },
+          {
+            "safe_Z_slab_mm": [
+              44.5,
+              45.5
+            ],
+            "planar_distance_mm": 3.5,
+            "spatial_distance_mm": 3.5034780046554164
+          },
+          {
+            "safe_Z_slab_mm": [
+              45.5,
+              46.5
+            ],
+            "planar_distance_mm": 3.5,
+            "spatial_distance_mm": 3.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              46.5,
+              47.5
+            ],
+            "planar_distance_mm": 4.5,
+            "spatial_distance_mm": 4.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              47.5,
+              48.5
+            ],
+            "planar_distance_mm": 4.5,
+            "spatial_distance_mm": 4.5
+          },
+          {
+            "safe_Z_slab_mm": [
+              48.5,
+              49.5
+            ],
+            "planar_distance_mm": 5.5,
+            "spatial_distance_mm": 5.564370252607594
+          },
+          {
+            "safe_Z_slab_mm": [
+              49.5,
+              50.5
+            ],
+            "planar_distance_mm": 6.321108232667417,
+            "spatial_distance_mm": 6.584564053618136
+          }
+        ]
+      }
+    ]
+  }
+}

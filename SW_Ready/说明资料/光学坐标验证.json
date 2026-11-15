@@ -1,0 +1,23 @@
+{
+  "verified_from_saved_assembly": true,
+  "camera_transform_translation_mm": [
+    224.20000000000002,
+    -17.5,
+    100.0
+  ],
+  "depth_optical_origin_robot_mm": [
+    220.00000000000003,
+    0.0,
+    100.0
+  ],
+  "depth_optical_origin_robot_cm": [
+    22.000000000000004,
+    0.0,
+    10.0
+  ],
+  "geometry_bbox_center_robot_mm": [
+    211.67499975027502,
+    -17.4524030562441,
+    99.999979001691
+  ]
+}

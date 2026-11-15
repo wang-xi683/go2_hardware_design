@@ -1,0 +1,67 @@
+{
+  "48": {
+    "raw": {
+      "voxel_centers_inside_exact_bracket": 63,
+      "overlap_bbox_robot_mm": [
+        [
+          229.0,
+          -41.0,
+          39.0
+        ],
+        [
+          231.0,
+          41.0,
+          44.0
+        ]
+      ]
+    },
+    "expanded3mm": {
+      "voxel_centers_inside_exact_bracket": 519,
+      "overlap_bbox_robot_mm": [
+        [
+          229.0,
+          -41.0,
+          31.0
+        ],
+        [
+          238.0,
+          41.0,
+          46.0
+        ]
+      ]
+    }
+  },
+  "60": {
+    "raw": {
+      "voxel_centers_inside_exact_bracket": 489,
+      "overlap_bbox_robot_mm": [
+        [
+          229.0,
+          -41.0,
+          32.0
+        ],
+        [
+          237.0,
+          41.0,
+          46.0
+        ]
+      ]
+    },
+    "expanded3mm": {
+      "voxel_centers_inside_exact_bracket": 1471,
+      "overlap_bbox_robot_mm": [
+        [
+          229.0,
+          -41.0,
+          27.0
+        ],
+        [
+          241.0,
+          41.0,
+          46.0
+        ]
+      ]
+    }
+  },
+  "scope": "Full lateral sampled motor union; 1mm occupied voxel centers classified against exact camera bracket solid. Positive counts demonstrate sampled overlap; counts not exact common volume."
+}

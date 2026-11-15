@@ -1,0 +1,36 @@
+{
+  "original_overlap_mm3_approx": 17433,
+  "upper_overlap_mm3_approx": 6085,
+  "lower_overlap_mm3_approx": 2454,
+  "middle_overlap_mm3_approx": 8894,
+  "new_overlap_mm3_approx": 0,
+  "new_min_voxel_center_clearance_mm": 3.7416573867739413,
+  "new_upper_min_clearance_mm": 3.7416573867739413,
+  "new_lower_min_clearance_mm": 8.94427190999916,
+  "circle_center_robot_mm": [
+    215.0,
+    0,
+    -3.531217880290452
+  ],
+  "inner_radius_mm": 51.1872887908,
+  "outer_radius_mm": 57.1872887908,
+  "width_mm": 28,
+  "method": "1mm voxel comparison against existing approximate hip sweep; not continuous-motion certification",
+  "STEP_valid_single_solid": true,
+  "upper_plane_Z_robot_mm": [
+    47.6560709105,
+    53.6560709105
+  ],
+  "lower_plane_Z_robot_mm": [
+    -60.7185066711,
+    -54.7185066711
+  ],
+  "upper_original_hole_constraint_released": true,
+  "upper_3p2_hole_Y_robot_mm": [
+    -9,
+    9
+  ],
+  "thickness_mm": 6,
+  "main_assembly_modified": false,
+  "clearance_certification": "NOT VERIFIED for continuous actual motion; 0 overlap only against current sampled voxel envelope"
+}

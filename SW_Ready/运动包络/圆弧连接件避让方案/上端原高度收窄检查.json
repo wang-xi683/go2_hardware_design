@@ -1,0 +1,124 @@
+{
+  "48": {
+    "maximum_nonoverlap_width_mm": 48,
+    "samples": [
+      {
+        "width_mm": 28,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 6.4031242374328485
+      },
+      {
+        "width_mm": 32,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 5.385164807134504
+      },
+      {
+        "width_mm": 34,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 5.0
+      },
+      {
+        "width_mm": 36,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 4.242640687119285
+      },
+      {
+        "width_mm": 38,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 3.605551275463989
+      },
+      {
+        "width_mm": 40,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 3.1622776601683795
+      },
+      {
+        "width_mm": 42,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 2.8284271247461903
+      },
+      {
+        "width_mm": 44,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 2.23606797749979
+      },
+      {
+        "width_mm": 46,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 1.4142135623730951
+      },
+      {
+        "width_mm": 48,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 1.0
+      },
+      {
+        "width_mm": 50,
+        "overlap_mm3_approx": 10,
+        "minimum_voxel_distance_mm": 0.0
+      }
+    ],
+    "upper_height_unchanged": true
+  },
+  "60": {
+    "maximum_nonoverlap_width_mm": 36,
+    "samples": [
+      {
+        "width_mm": 28,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 3.605551275463989
+      },
+      {
+        "width_mm": 32,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 2.23606797749979
+      },
+      {
+        "width_mm": 34,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 1.4142135623730951
+      },
+      {
+        "width_mm": 36,
+        "overlap_mm3_approx": 0,
+        "minimum_voxel_distance_mm": 1.0
+      },
+      {
+        "width_mm": 38,
+        "overlap_mm3_approx": 18,
+        "minimum_voxel_distance_mm": 0.0
+      },
+      {
+        "width_mm": 40,
+        "overlap_mm3_approx": 74,
+        "minimum_voxel_distance_mm": 0.0
+      },
+      {
+        "width_mm": 42,
+        "overlap_mm3_approx": 168,
+        "minimum_voxel_distance_mm": 0.0
+      },
+      {
+        "width_mm": 44,
+        "overlap_mm3_approx": 307,
+        "minimum_voxel_distance_mm": 0.0
+      },
+      {
+        "width_mm": 46,
+        "overlap_mm3_approx": 488,
+        "minimum_voxel_distance_mm": 0.0
+      },
+      {
+        "width_mm": 48,
+        "overlap_mm3_approx": 699,
+        "minimum_voxel_distance_mm": 0.0
+      },
+      {
+        "width_mm": 50,
+        "overlap_mm3_approx": 936,
+        "minimum_voxel_distance_mm": 0.0
+      }
+    ],
+    "upper_height_unchanged": true
+  }
+}

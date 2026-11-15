@@ -1,0 +1,87 @@
+{
+  "source_mesh": "SW_Ready/交换模型/STL/髋关节.stl",
+  "angle_degrees": [
+    -60,
+    60
+  ],
+  "angle_step_degrees": 1,
+  "voxel_pitch_mm": 1,
+  "preview_smoothing_sigma_voxels": 0.65,
+  "left_joint_origin_mm": [
+    193.4,
+    46.5,
+    0
+  ],
+  "right_joint_origin_mm": [
+    193.4,
+    -46.5,
+    0
+  ],
+  "axis": [
+    1,
+    0,
+    0
+  ],
+  "overlap_voxel_volume_mm3": 6538,
+  "union_voxel_volume_mm3": 1797888,
+  "scope": "Existing hip-link mesh only, not thigh/calf/whole robot. Discrete visual envelope, not exact swept CAD or physical hard-stop validation. No design clearance added.",
+  "union_connected_components": 1,
+  "SW_graphics_bbox_m": [
+    0.122500022888184,
+    -0.1085,
+    -0.0615,
+    0.2415,
+    0.1085,
+    0.0615
+  ],
+  "STL_meshes": {
+    "前右髋关节扫掠曲面.stl": {
+      "triangles": 446056,
+      "non_manifold_or_boundary_edges_0p0001mm_weld": 180,
+      "bbox_mm": [
+        [
+          122.5000228881836,
+          -108.5,
+          -61.5
+        ],
+        [
+          241.5,
+          4.499980926513672,
+          61.5
+        ]
+      ]
+    },
+    "前左髋关节扫掠曲面.stl": {
+      "triangles": 439220,
+      "non_manifold_or_boundary_edges_0p0001mm_weld": 152,
+      "bbox_mm": [
+        [
+          122.5000228881836,
+          -4.499980926513672,
+          -61.5
+        ],
+        [
+          241.5,
+          108.5,
+          61.5
+        ]
+      ]
+    },
+    "双前髋关节合并扫掠曲面.stl": {
+      "triangles": 855084,
+      "non_manifold_or_boundary_edges_0p0001mm_weld": 328,
+      "bbox_mm": [
+        [
+          122.5000228881836,
+          -108.5,
+          -61.5
+        ],
+        [
+          241.5,
+          108.5,
+          61.5
+        ]
+      ]
+    }
+  }
+}

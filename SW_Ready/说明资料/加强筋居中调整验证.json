@@ -1,0 +1,27 @@
+{
+  "central_rib_Y_before_mm": [
+    -2.5,
+    3.5
+  ],
+  "central_rib_Y_after_mm": [
+    -3,
+    3
+  ],
+  "far_rib_Y_unchanged_mm": [
+    -38.5,
+    -32.5
+  ],
+  "rib_thickness_mm": 6,
+  "tool_diameter_mm": 6.35,
+  "previous_tool_clearance_mm": [
+    1.325,
+    0.325
+  ],
+  "current_tool_clearance_mm": [
+    0.8250000000000002,
+    0.8250000000000002
+  ],
+  "holes_and_camera_pose_unchanged": true,
+  "strength_analysis": "NOT VERIFIED",
+  "geometry_validation": "相机与中间件孔位对齐验证.json"
+}

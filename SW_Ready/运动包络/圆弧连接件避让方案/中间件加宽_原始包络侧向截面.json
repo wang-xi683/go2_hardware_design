@@ -1,0 +1,887 @@
+{
+  "required_remaining_CAD_clearance_mm": 2,
+  "reference_expansion_mm": 3,
+  "lateral_slab_width_mm": 1,
+  "candidate": "Current XZ contour, unperforated section, centered uniform width; mounting heights and contour unchanged",
+  "results": {
+    "48": {
+      "current_width_mm": 24,
+      "minimum_full_lateral_reference_distance_mm": 4.6932422689700015,
+      "critical_slab": {
+        "Y_range_mm": [
+          -16.5,
+          -15.5
+        ],
+        "XZ_distance_mm": 3.1267431930439518,
+        "max_width_for_2mm_clearance_mm": null
+      },
+      "slabs": [
+        {
+          "Y_range_mm": [
+            -26.5,
+            -25.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 47.0
+        },
+        {
+          "Y_range_mm": [
+            -25.5,
+            -24.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 45.0
+        },
+        {
+          "Y_range_mm": [
+            -24.5,
+            -23.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 43.0
+        },
+        {
+          "Y_range_mm": [
+            -23.5,
+            -22.5
+          ],
+          "XZ_distance_mm": 0.13369242882163518,
+          "max_width_for_2mm_clearance_mm": 41.00894683850201
+        },
+        {
+          "Y_range_mm": [
+            -22.5,
+            -21.5
+          ],
+          "XZ_distance_mm": 0.493530260556379,
+          "max_width_for_2mm_clearance_mm": 39.123698731050354
+        },
+        {
+          "Y_range_mm": [
+            -21.5,
+            -20.5
+          ],
+          "XZ_distance_mm": 0.7099044596838037,
+          "max_width_for_2mm_clearance_mm": 37.26046224347391
+        },
+        {
+          "Y_range_mm": [
+            -20.5,
+            -19.5
+          ],
+          "XZ_distance_mm": 0.8985707229976797,
+          "max_width_for_2mm_clearance_mm": 35.42644677903271
+        },
+        {
+          "Y_range_mm": [
+            -19.5,
+            -18.5
+          ],
+          "XZ_distance_mm": 1.1314060544237718,
+          "max_width_for_2mm_clearance_mm": 33.701563800821226
+        },
+        {
+          "Y_range_mm": [
+            -18.5,
+            -17.5
+          ],
+          "XZ_distance_mm": 2.0575793370424296,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -17.5,
+            -16.5
+          ],
+          "XZ_distance_mm": 2.7986065122887847,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -16.5,
+            -15.5
+          ],
+          "XZ_distance_mm": 3.1267431930439518,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -15.5,
+            -14.5
+          ],
+          "XZ_distance_mm": 4.051902676393585,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -14.5,
+            -13.5
+          ],
+          "XZ_distance_mm": 5.049006767440187,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -13.5,
+            -12.5
+          ],
+          "XZ_distance_mm": 5.878698466630314,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -12.5,
+            -11.5
+          ],
+          "XZ_distance_mm": 6.874555188640189,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -11.5,
+            -10.5
+          ],
+          "XZ_distance_mm": 7.774861340508666,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -10.5,
+            -9.5
+          ],
+          "XZ_distance_mm": 9.548800496949577,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -9.5,
+            -8.5
+          ],
+          "XZ_distance_mm": 11.284393751842998,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -8.5,
+            -7.5
+          ],
+          "XZ_distance_mm": 12.27536989062923,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -7.5,
+            -6.5
+          ],
+          "XZ_distance_mm": 14.115645891178694,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -6.5,
+            -5.5
+          ],
+          "XZ_distance_mm": 15.104899962879552,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -5.5,
+            -4.5
+          ],
+          "XZ_distance_mm": 17.08281348166404,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -4.5,
+            -3.5
+          ],
+          "XZ_distance_mm": 18.15607091050955,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -3.5,
+            -2.5
+          ],
+          "XZ_distance_mm": 19.15607091050955,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -2.5,
+            -1.5
+          ],
+          "XZ_distance_mm": 21.15607091050955,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -1.5,
+            -0.5
+          ],
+          "XZ_distance_mm": 23.15607091050955,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -0.5,
+            0.5
+          ],
+          "XZ_distance_mm": 25.15607091050955,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            0.5,
+            1.5
+          ],
+          "XZ_distance_mm": 23.15607091050955,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            1.5,
+            2.5
+          ],
+          "XZ_distance_mm": 21.183547518980927,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            2.5,
+            3.5
+          ],
+          "XZ_distance_mm": 19.186411906526057,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            3.5,
+            4.5
+          ],
+          "XZ_distance_mm": 18.188080163279075,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            4.5,
+            5.5
+          ],
+          "XZ_distance_mm": 17.08281348166404,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            5.5,
+            6.5
+          ],
+          "XZ_distance_mm": 15.194401421668722,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            6.5,
+            7.5
+          ],
+          "XZ_distance_mm": 14.19710156129727,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            7.5,
+            8.5
+          ],
+          "XZ_distance_mm": 12.528203914775563,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            8.5,
+            9.5
+          ],
+          "XZ_distance_mm": 11.53517812742758,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            9.5,
+            10.5
+          ],
+          "XZ_distance_mm": 9.660598038893978,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            10.5,
+            11.5
+          ],
+          "XZ_distance_mm": 8.30053478745377,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            11.5,
+            12.5
+          ],
+          "XZ_distance_mm": 7.348796672208416,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            12.5,
+            13.5
+          ],
+          "XZ_distance_mm": 6.046071368671129,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            13.5,
+            14.5
+          ],
+          "XZ_distance_mm": 5.049006767440187,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            14.5,
+            15.5
+          ],
+          "XZ_distance_mm": 4.424889049266979,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            15.5,
+            16.5
+          ],
+          "XZ_distance_mm": 3.1921706463850907,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            16.5,
+            17.5
+          ],
+          "XZ_distance_mm": 2.976137531596447,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            17.5,
+            18.5
+          ],
+          "XZ_distance_mm": 2.0575793370424296,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            18.5,
+            19.5
+          ],
+          "XZ_distance_mm": 1.1314060544237718,
+          "max_width_for_2mm_clearance_mm": 33.701563800821226
+        },
+        {
+          "Y_range_mm": [
+            19.5,
+            20.5
+          ],
+          "XZ_distance_mm": 0.8985707229976797,
+          "max_width_for_2mm_clearance_mm": 35.42644677903271
+        },
+        {
+          "Y_range_mm": [
+            20.5,
+            21.5
+          ],
+          "XZ_distance_mm": 0.7099044596838037,
+          "max_width_for_2mm_clearance_mm": 37.26046224347391
+        },
+        {
+          "Y_range_mm": [
+            21.5,
+            22.5
+          ],
+          "XZ_distance_mm": 0.493530260556379,
+          "max_width_for_2mm_clearance_mm": 39.123698731050354
+        },
+        {
+          "Y_range_mm": [
+            22.5,
+            23.5
+          ],
+          "XZ_distance_mm": 0.13369242882163518,
+          "max_width_for_2mm_clearance_mm": 41.00894683850201
+        },
+        {
+          "Y_range_mm": [
+            23.5,
+            24.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 43.0
+        },
+        {
+          "Y_range_mm": [
+            24.5,
+            25.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 45.0
+        },
+        {
+          "Y_range_mm": [
+            25.5,
+            26.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 47.0
+        }
+      ],
+      "outside_checked_lateral_band_minimum_distance_mm": 6.5
+    },
+    "60": {
+      "current_width_mm": 24,
+      "minimum_full_lateral_reference_distance_mm": 4.556415781181673,
+      "critical_slab": {
+        "Y_range_mm": [
+          -14.5,
+          -13.5
+        ],
+        "XZ_distance_mm": 4.3024324249198145,
+        "max_width_for_2mm_clearance_mm": null
+      },
+      "slabs": [
+        {
+          "Y_range_mm": [
+            -26.5,
+            -25.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 47.0
+        },
+        {
+          "Y_range_mm": [
+            -25.5,
+            -24.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 45.0
+        },
+        {
+          "Y_range_mm": [
+            -24.5,
+            -23.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 43.0
+        },
+        {
+          "Y_range_mm": [
+            -23.5,
+            -22.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 41.0
+        },
+        {
+          "Y_range_mm": [
+            -22.5,
+            -21.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 39.0
+        },
+        {
+          "Y_range_mm": [
+            -21.5,
+            -20.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 37.0
+        },
+        {
+          "Y_range_mm": [
+            -20.5,
+            -19.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 35.0
+        },
+        {
+          "Y_range_mm": [
+            -19.5,
+            -18.5
+          ],
+          "XZ_distance_mm": 0.07858662999998955,
+          "max_width_for_2mm_clearance_mm": 33.00308912204175
+        },
+        {
+          "Y_range_mm": [
+            -18.5,
+            -17.5
+          ],
+          "XZ_distance_mm": 0.17473977086523465,
+          "max_width_for_2mm_clearance_mm": 31.015296240633205
+        },
+        {
+          "Y_range_mm": [
+            -17.5,
+            -16.5
+          ],
+          "XZ_distance_mm": 1.1587388871273507,
+          "max_width_for_2mm_clearance_mm": 29.739739770227615
+        },
+        {
+          "Y_range_mm": [
+            -16.5,
+            -15.5
+          ],
+          "XZ_distance_mm": 3.1267431930439518,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -15.5,
+            -14.5
+          ],
+          "XZ_distance_mm": 4.051902676393585,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -14.5,
+            -13.5
+          ],
+          "XZ_distance_mm": 4.3024324249198145,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -13.5,
+            -12.5
+          ],
+          "XZ_distance_mm": 5.301189986613326,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -12.5,
+            -11.5
+          ],
+          "XZ_distance_mm": 6.246364524485827,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -11.5,
+            -10.5
+          ],
+          "XZ_distance_mm": 7.244737822746551,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -10.5,
+            -9.5
+          ],
+          "XZ_distance_mm": 8.182171482416631,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -9.5,
+            -8.5
+          ],
+          "XZ_distance_mm": 9.180090276506897,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -8.5,
+            -7.5
+          ],
+          "XZ_distance_mm": 10.177980592806447,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -7.5,
+            -6.5
+          ],
+          "XZ_distance_mm": 12.027579602110919,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -6.5,
+            -5.5
+          ],
+          "XZ_distance_mm": 13.024342120233268,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -5.5,
+            -4.5
+          ],
+          "XZ_distance_mm": 14.932165134700584,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -4.5,
+            -3.5
+          ],
+          "XZ_distance_mm": 15.928142961728415,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -3.5,
+            -2.5
+          ],
+          "XZ_distance_mm": 17.010909081454454,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -2.5,
+            -1.5
+          ],
+          "XZ_distance_mm": 18.915702203779215,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -1.5,
+            -0.5
+          ],
+          "XZ_distance_mm": 20.9966455883517,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            -0.5,
+            0.5
+          ],
+          "XZ_distance_mm": 25.15607091050955,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            0.5,
+            1.5
+          ],
+          "XZ_distance_mm": 21.416108691883874,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            1.5,
+            2.5
+          ],
+          "XZ_distance_mm": 19.380272531801552,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            2.5,
+            3.5
+          ],
+          "XZ_distance_mm": 17.418356996072134,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            3.5,
+            4.5
+          ],
+          "XZ_distance_mm": 16.01434210077495,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            4.5,
+            5.5
+          ],
+          "XZ_distance_mm": 15.017724496754443,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            5.5,
+            6.5
+          ],
+          "XZ_distance_mm": 13.234506746342776,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            6.5,
+            7.5
+          ],
+          "XZ_distance_mm": 12.173673313412246,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            7.5,
+            8.5
+          ],
+          "XZ_distance_mm": 10.472275670492184,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            8.5,
+            9.5
+          ],
+          "XZ_distance_mm": 9.180090276506897,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            9.5,
+            10.5
+          ],
+          "XZ_distance_mm": 8.2430894725812,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            10.5,
+            11.5
+          ],
+          "XZ_distance_mm": 7.244737822746551,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            11.5,
+            12.5
+          ],
+          "XZ_distance_mm": 6.488129999871735,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            12.5,
+            13.5
+          ],
+          "XZ_distance_mm": 5.388396892533889,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            13.5,
+            14.5
+          ],
+          "XZ_distance_mm": 4.450652580436931,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            14.5,
+            15.5
+          ],
+          "XZ_distance_mm": 4.124365458872916,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            15.5,
+            16.5
+          ],
+          "XZ_distance_mm": 3.1921706463850907,
+          "max_width_for_2mm_clearance_mm": null
+        },
+        {
+          "Y_range_mm": [
+            16.5,
+            17.5
+          ],
+          "XZ_distance_mm": 1.5810911006457251,
+          "max_width_for_2mm_clearance_mm": 30.550387025296533
+        },
+        {
+          "Y_range_mm": [
+            17.5,
+            18.5
+          ],
+          "XZ_distance_mm": 1.089819823421291,
+          "max_width_for_2mm_clearance_mm": 31.646021614572934
+        },
+        {
+          "Y_range_mm": [
+            18.5,
+            19.5
+          ],
+          "XZ_distance_mm": 0.15607091050954836,
+          "max_width_for_2mm_clearance_mm": 33.01219766242472
+        },
+        {
+          "Y_range_mm": [
+            19.5,
+            20.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 35.0
+        },
+        {
+          "Y_range_mm": [
+            20.5,
+            21.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 37.0
+        },
+        {
+          "Y_range_mm": [
+            21.5,
+            22.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 39.0
+        },
+        {
+          "Y_range_mm": [
+            22.5,
+            23.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 41.0
+        },
+        {
+          "Y_range_mm": [
+            23.5,
+            24.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 43.0
+        },
+        {
+          "Y_range_mm": [
+            24.5,
+            25.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 45.0
+        },
+        {
+          "Y_range_mm": [
+            25.5,
+            26.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 47.0
+        }
+      ],
+      "outside_checked_lateral_band_minimum_distance_mm": 6.5
+    }
+  },
+  "scope": "Current revised bend start X=222.278378746mm; current width24 only; expanded sampled envelope3mm; full lateral distance in +-18.5 band, farther cells >=6.5mm away."
+}

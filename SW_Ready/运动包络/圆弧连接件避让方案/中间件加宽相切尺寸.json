@@ -1,0 +1,82 @@
+{
+  "中间件加宽_原始包络侧向截面.json": {
+    "48": {
+      "first_contact_uniform_width_mm": 47.0,
+      "slabs": [
+        {
+          "Y_range_mm": [
+            -24.5,
+            -23.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 43.0
+        },
+        {
+          "Y_range_mm": [
+            23.5,
+            24.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 43.0
+        }
+      ]
+    },
+    "60": {
+      "first_contact_uniform_width_mm": 39.0,
+      "slabs": [
+        {
+          "Y_range_mm": [
+            -20.5,
+            -19.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 35.0
+        },
+        {
+          "Y_range_mm": [
+            19.5,
+            20.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 35.0
+        }
+      ]
+    }
+  },
+  "中间件起弯点调整后_全三维包络验证.json": {
+    "48": {
+      "first_contact_uniform_width_mm": 31.0,
+      "slabs": [
+        {
+          "Y_range_mm": [
+            -16.5,
+            -15.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 27.0
+        },
+        {
+          "Y_range_mm": [
+            15.5,
+            16.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 27.0
+        }
+      ]
+    },
+    "60": {
+      "first_contact_uniform_width_mm": 29.0,
+      "slabs": [
+        {
+          "Y_range_mm": [
+            -15.5,
+            -14.5
+          ],
+          "XZ_distance_mm": 0.0,
+          "max_width_for_2mm_clearance_mm": 25.0
+        }
+      ]
+    }
+  }
+}

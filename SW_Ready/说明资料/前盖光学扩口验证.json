@@ -1,0 +1,111 @@
+{
+  "valid_STEP_solid": true,
+  "solid_count": 1,
+  "bbox_mm": [
+    -50.5000001,
+    -18.0000001,
+    -1.000000137667655e-07,
+    50.5000001,
+    18.0000001,
+    6.000000100388949
+  ],
+  "volume_mm3": 12206.147699758576,
+  "previous_volume_mm3": 6076.3539967061515,
+  "additional_protection_volume_mm3": 6129.7937030524245,
+  "intersections_mm3": {
+    "D435i深度相机": 0.0,
+    "相机保护主壳": 0.0
+  },
+  "existing_frame_material_retained": true,
+  "native_ray_tests": {
+    "rays_per_case": 9537,
+    "cases": 5,
+    "total": 47685,
+    "cover_hits": 0,
+    "control_ray_hits": 2
+  },
+  "IR_design_FOV_degrees": [
+    90,
+    65
+  ],
+  "RGB_design_FOV_degrees": [
+    72,
+    45
+  ],
+  "code_FOV_degrees": [
+    58,
+    58
+  ],
+  "projector": "NOT VERIFIED; central 26x25 mm opening retained, do not claim fully verified projector FOV",
+  "physical_FOV_test": "NOT VERIFIED",
+  "mounting_holes": [
+    {
+      "diameter_mm": 3.0000000000000027,
+      "axis_anchor_local_mm": [
+        -47.0,
+        14.5,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 3.0000000000000027,
+      "axis_anchor_local_mm": [
+        47.0,
+        -14.5,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 3.0000000000000027,
+      "axis_anchor_local_mm": [
+        47.0,
+        14.5,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "diameter_mm": 3.0000000000000027,
+      "axis_anchor_local_mm": [
+        -47.0,
+        -14.5,
+        0.0
+      ],
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ]
+    }
+  ],
+  "native_STEP_surface_comparison": {
+    "native_faces": 54,
+    "STEP_faces": 58,
+    "sample_counts_each_direction": [
+      54,
+      58
+    ],
+    "maximum_sample_distance_mm": 1.84403634944074e-14,
+    "scope": "sampled points only; not a rigorous global Hausdorff bound"
+  },
+  "volume_estimates_mm3": {
+    "SW_native_high_accuracy": 12206.1679729577,
+    "SW_STEP_high_accuracy": 12206.2403544219,
+    "OCP_STEP": 12206.147699758576,
+    "note": "Integration estimates differ by at most 0.093 mm3 (~0.00076%); sampled surface positions coincide. Not a proof of exact equality."
+  }
+}
