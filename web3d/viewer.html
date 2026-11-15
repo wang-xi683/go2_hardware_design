@@ -12,6 +12,8 @@
   .seg button{background:transparent;color:#9fc1e8;border:0;padding:8px 16px;font-size:14px;cursor:pointer}
   .seg button.on{background:#2f6fb3;color:#fff}
   .hint{margin-left:auto;font-size:12px;color:#8a919e}
+  .spin{margin-left:10px;background:transparent;color:#9fc1e8;border:1px solid #3a72b0;border-radius:8px;padding:8px 14px;font-size:14px;cursor:pointer}
+  .spin.on{background:#2f6fb3;color:#fff}
   model-viewer{width:100%;height:calc(100% - 57px);background:#14161a;--poster-color:#14161a}
   body.embed header{display:none}
   body.embed model-viewer{height:100%}
@@ -26,10 +28,11 @@
     <button id="bFull" class="on">完整总装</button>
     <button id="bSensors">传感器安装部分</button>
   </div>
-  <span class="hint">拖拽旋转 · 滚轮/双指缩放 · 右键/三指平移 · 手机可点 AR</span>
+  <span class="hint">按住左键拖动旋转 · 滚轮/双指缩放 · 右键/三指平移 · 手机可点 AR</span>
+  <button id="bSpin" class="spin">自动旋转：关</button>
 </header>
-<model-viewer id="mv" poster="./poster.png" camera-controls auto-rotate auto-rotate-delay="2500"
-  camera-orbit="205deg 72deg auto"
+<model-viewer id="mv" poster="./poster.png" camera-controls
+  camera-orbit="215deg 58deg auto"
   shadow-intensity="1" exposure="1.05" max-camera-orbit="auto 180deg 3m" touch-action="pan-y"
   ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" interaction-prompt="none">
   <button slot="ar-button" style="position:absolute;right:12px;bottom:14px;background:#2f6fb3;color:#fff;border:0;border-radius:8px;padding:8px 14px">📱 AR 视图</button>
@@ -38,7 +41,7 @@
 const mv=document.getElementById('mv');
 const bF=document.getElementById('bFull'),bS=document.getElementById('bSensors');
 const VIEWS={
-  full:   {src:'assets/go2_full.glb',    orbit:'205deg 72deg auto'},
+  full:   {src:'assets/go2_full.glb',    orbit:'215deg 58deg auto'},
   sensors:{src:'assets/go2_sensors.glb', orbit:'205deg 66deg auto'}
 };
 if(new URLSearchParams(location.search).get('embed')==='1')document.body.classList.add('embed');
@@ -52,6 +55,18 @@ function set(which){
 }
 bF.onclick=()=>set('full');
 bS.onclick=()=>set('sensors');
+
+// 自动旋转默认关闭：只有用户点按钮才转，其余时间完全由鼠标拖动控制
+const bSp=document.getElementById('bSpin');
+mv.autoRotate=false;
+bSp.onclick=()=>{
+  const on=!mv.autoRotate;
+  mv.autoRotate=on;
+  mv.autoRotateDelay=0;
+  bSp.classList.toggle('on',on);
+  bSp.textContent='自动旋转：'+(on?'开':'关');
+};
+
 mv.addEventListener('load',()=>mv.jumpCameraToGoal());
 window.addEventListener('hashchange',()=>{
   const want=location.hash==='#sensors'?'sensors':'full';
