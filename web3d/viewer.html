@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Go2 传感器安装 · 可交互 3D</title>
+<style>
+  html,body{margin:0;height:100%;font-family:-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;background:#14161a;color:#e8eaed}
+  header{display:flex;align-items:center;gap:14px;padding:10px 18px;background:#1b1e24;border-bottom:1px solid #2a2e36;flex-wrap:wrap}
+  header h1{font-size:16px;margin:0;font-weight:600}
+  .seg{display:flex;border:1px solid #3a72b0;border-radius:8px;overflow:hidden}
+  .seg button{background:transparent;color:#9fc1e8;border:0;padding:8px 16px;font-size:14px;cursor:pointer}
+  .seg button.on{background:#2f6fb3;color:#fff}
+  .hint{margin-left:auto;font-size:12px;color:#8a919e}
+  model-viewer{width:100%;height:calc(100% - 57px);background:#14161a;--poster-color:#14161a}
+  a{color:#9fc1e8}
+</style>
+<script type="module" src="./model-viewer.min.js"></script>
+</head>
+<body>
+<header>
+  <h1>Go2 深度相机与雷达安装</h1>
+  <div class="seg">
+    <button id="bFull" class="on">完整总装</button>
+    <button id="bSensors">传感器安装部分</button>
+  </div>
+  <span class="hint">拖拽旋转 · 滚轮/双指缩放 · 右键/三指平移 · 手机可点 AR</span>
+</header>
+<model-viewer id="mv" poster="./poster.png" camera-controls auto-rotate auto-rotate-delay="3000" shadow-intensity="1" camera-up="0 0 1" camera-up="0 0 1" field-of-view="30deg"
+  exposure="1.05" touch-action="pan-y" ar ar-modes="webxr scene-viewer quick-look"
+  environment-image="neutral" interaction-prompt="auto">
+  <button slot="ar-button" style="position:absolute;right:12px;bottom:14px;background:#2f6fb3;color:#fff;border:0;border-radius:8px;padding:8px 14px">📱 AR 视图</button>
+</model-viewer>
+<script>
+const mv=document.getElementById('mv');
+const bF=document.getElementById('bFull'),bS=document.getElementById('bSensors');
+const VIEWS={full:{src:'assets/go2_full.glb',name:'camera-controls'},sensors:{src:'assets/go2_sensors.glb'}};
+function set(which){
+  const v=VIEWS[which];
+  mv.src=v.src;
+  bF.classList.toggle('on',which==='full');
+  bS.classList.toggle('on',which==='sensors');
+  location.hash=which;
+}
+bF.onclick=()=>set('full');
+bS.onclick=()=>set('sensors');
+set(location.hash==='#sensors'?'sensors':'full');
+</script>
+</body>
+</html>
