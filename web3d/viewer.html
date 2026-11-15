@@ -13,6 +13,8 @@
   .seg button.on{background:#2f6fb3;color:#fff}
   .hint{margin-left:auto;font-size:12px;color:#8a919e}
   model-viewer{width:100%;height:calc(100% - 57px);background:#14161a;--poster-color:#14161a}
+  body.embed header{display:none}
+  body.embed model-viewer{height:100%}
   a{color:#9fc1e8}
 </style>
 <script type="module" src="./model-viewer.min.js"></script>
@@ -26,24 +28,35 @@
   </div>
   <span class="hint">拖拽旋转 · 滚轮/双指缩放 · 右键/三指平移 · 手机可点 AR</span>
 </header>
-<model-viewer id="mv" poster="./poster.png" camera-controls auto-rotate auto-rotate-delay="3000" shadow-intensity="1" camera-up="0 0 1" camera-up="0 0 1" field-of-view="30deg"
-  exposure="1.05" touch-action="pan-y" ar ar-modes="webxr scene-viewer quick-look"
-  environment-image="neutral" interaction-prompt="auto">
+<model-viewer id="mv" poster="./poster.png" camera-controls auto-rotate auto-rotate-delay="2500"
+  camera-orbit="205deg 72deg auto"
+  shadow-intensity="1" exposure="1.05" max-camera-orbit="auto 180deg 3m" touch-action="pan-y"
+  ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" interaction-prompt="none">
   <button slot="ar-button" style="position:absolute;right:12px;bottom:14px;background:#2f6fb3;color:#fff;border:0;border-radius:8px;padding:8px 14px">📱 AR 视图</button>
 </model-viewer>
 <script>
 const mv=document.getElementById('mv');
 const bF=document.getElementById('bFull'),bS=document.getElementById('bSensors');
-const VIEWS={full:{src:'assets/go2_full.glb',name:'camera-controls'},sensors:{src:'assets/go2_sensors.glb'}};
+const VIEWS={
+  full:   {src:'assets/go2_full.glb',    orbit:'205deg 72deg auto'},
+  sensors:{src:'assets/go2_sensors.glb', orbit:'205deg 66deg auto'}
+};
+if(new URLSearchParams(location.search).get('embed')==='1')document.body.classList.add('embed');
 function set(which){
   const v=VIEWS[which];
+  mv.cameraOrbit=v.orbit;
   mv.src=v.src;
   bF.classList.toggle('on',which==='full');
   bS.classList.toggle('on',which==='sensors');
-  location.hash=which;
+  history.replaceState(null,'','#'+which+(location.search||''));
 }
 bF.onclick=()=>set('full');
 bS.onclick=()=>set('sensors');
+mv.addEventListener('load',()=>mv.jumpCameraToGoal());
+window.addEventListener('hashchange',()=>{
+  const want=location.hash==='#sensors'?'sensors':'full';
+  if(mv.getAttribute('src')!==VIEWS[want].src)set(want);
+});
 set(location.hash==='#sensors'?'sensors':'full');
 </script>
 </body>

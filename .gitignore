@@ -14,3 +14,7 @@ Thumbs.db
 *.prtdot
 *.sldprt.tmp
 desktop.ini
+# ---- 3D 查看器中间产物（不入库） ----
+.web3d/
+.playwright-mcp/
+.gif_tmp_f*.png
