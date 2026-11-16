@@ -1,0 +1,13 @@
+{
+  "front_plane_maximum_signed_protrusion_mm": 1.0000011368683772e-07,
+  "front_plane_actual_max_signed_mm": 1.0000011368683772e-07,
+  "no_geometry_in_front_of_installation_plane": true,
+  "all_twelve_hole_axes_and_diameters_unchanged": true,
+  "all_diameters_mm": 3.2,
+  "added_material_volume_mm3": 0.0,
+  "added_material_bbox_robot_mm": null,
+  "new_material_cannot_intersect_raw_motor_envelope_Xmax241p5": true,
+  "change": "Removed crossbar stubs and two irregular side webs; replaced side webs with two simple6mm triangular prisms. Four mating holes and functional saddle retained.",
+  "final_STEP_sha256": "d73837b3b0939c5ea4f73bac2fe6aa5715def1d052fb23b975ad21a926a2062a",
+  "status": "HISTORICAL narrow-rib revision, superseded by broad solid backing. Current evidence in 雷达转接件实心背板_* reports"
+}

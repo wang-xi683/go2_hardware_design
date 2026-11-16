@@ -1,0 +1,23 @@
+{
+  "candidate": "C:\\Users\\21508\\AppData\\Local\\Temp\\RadarAddedFilledBacking.step",
+  "original_motor_angle_deg": 60,
+  "reference": "Union of occupied1mm voxel cells, each treated as full cube, clipped only outside adapter bbox plus2mm",
+  "exact_box_count": 539,
+  "included_motor_cells": 8751,
+  "minimum_distance_to_clipped_cell_union_mm": 0.3539912630199922,
+  "overlap_mm3": 0.0,
+  "CAD_cell_noninterference_pass": true,
+  "scope": "Exact CAD versus disjoint voxel-cell union. No continuous-source error or safety3mm clearance certification.",
+  "adapter_point": [
+    230.85399126302,
+    -32.0,
+    43.47364873235
+  ],
+  "envelope_point": [
+    230.5,
+    -32.0,
+    43.47364873235
+  ],
+  "verification_target": "New backing material relative to preceding narrow-rib model, exact CAD versus full occupied voxel cells",
+  "final_STEP_sha256": "bc8149b9a6e65ef80e7704d7e4a0dca6710ab6eccefb24f4d52ee57c934235d7"
+}

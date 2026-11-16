@@ -1,0 +1,25 @@
+{
+  "candidate": "C:\\Users\\21508\\AppData\\Local\\Temp\\RadarReliefCandidate\\雷达转接件_避让候选.step",
+  "original_motor_angle_deg": 60,
+  "reference": "Union of occupied1mm voxel cells, each treated as full cube, clipped only outside adapter bbox plus2mm",
+  "exact_box_count": 1201,
+  "included_motor_cells": 35056,
+  "minimum_distance_to_clipped_cell_union_mm": 0.07039462053055412,
+  "overlap_mm3": 0.0,
+  "CAD_cell_noninterference_pass": true,
+  "scope": "Exact CAD versus disjoint voxel-cell union. No continuous-source error or safety3mm clearance certification.",
+  "adapter_point": [
+    231.57017010107978,
+    -35.49438221448488,
+    45.731587682871826
+  ],
+  "envelope_point": [
+    231.5,
+    -35.5,
+    45.731587682871826
+  ],
+  "final_model": "SW_Ready/零件/连接件/雷达转接件.SLDPRT",
+  "final_STEP_sha256": "57a1d6ca1f999a85f7dcc1cfd5238da31bf3597b8520726accd8e2f2a4b44f28",
+  "current_plain_hole_followup": "当前12个φ3.2普通通孔版本：新增回填材料X>=248mm，与原始包络最大X241.5mm分离；当前间隙不小于此前参考值。见雷达转接件普通通孔验证.json。",
+  "current_plain_hole_STEP_sha256": "a422cbce0960d26cab68299d8f1c1b8a2a7eb4a32880fbdcbf9664c536ea195d"
+}

@@ -5,7 +5,7 @@
     "category": "相机",
     "name": "D435i深度相机",
     "source_sha256": "e9cc473e0a626ab7cdae94fe389fdd2fdfb69a0ea9dcd612b714dcdaecadea5e",
-    "current_sha256": "f618a8cdb9179f3c978685868e7381834e45434e8d55988271231bd86ece4a8f",
+    "current_sha256": "ee30dfed0d7941b39b25e0042a298ec47003cfb0a14ee31ef4a1eb63f0773019",
     "optical_reference_revision": "新增草图1：两个φ10与一个φ7参考圆；实体和安装变换不变；胶布区域未绘制"
   },
   {
@@ -14,7 +14,7 @@
     "category": "相机",
     "name": "相机前保护框",
     "source_sha256": "62a5da678858d6b65496bfd77f600d22db8bd66fd68346669eedde8e18a1124f",
-    "current_sha256": "b9fe5f299f25a2e58343371147e2754aa1838c858ae17b04ec04cdb28286c641",
+    "current_sha256": "22a72b13183c19b0a12a10cfaae8c75dfb2c31de80c08bc2aa8943e9162c6444",
     "hole_revision": "相机相关连接孔统一φ3；主壳四角补厚；见连接孔径统一说明",
     "latest_revision": "6mm同外缘前盖，φ3安装孔不变；三个光学渐扩口+中央预留开口；原生中文拉伸/放样切除特征；两级装配已同步"
   },
@@ -24,7 +24,7 @@
     "category": "相机",
     "name": "相机保护主壳",
     "source_sha256": "05221f9ac490f6ef1d45bae20e0a70cd535e0060fb5ab1b9224e4c3eb9cb0ce0",
-    "current_sha256": "903c77060208a0c1caa21fe4c1359d2d861d14cb15a9fde875d0544851a1871e",
+    "current_sha256": "05b3dec540ec5ae923aba6fe05b995d5b06451b07f244a1ff277f7887683a272",
     "geometry_revision": "顶部22x6mm R3接口开窗；3条顶部散热槽缩短；名义光学位姿不变",
     "hole_revision": "相机相关连接孔统一φ3；主壳四角补厚；见连接孔径统一说明"
   },
@@ -34,8 +34,9 @@
     "category": "连接件",
     "name": "雷达转接件",
     "source_sha256": "2d01969934844bb468b31a1d1243e317842513c9519888bc34f77eee262a581b",
-    "current_sha256": "1d1b77acc5e0bed64e9c0a3c7440829ef5c5b8d531c8d4c3d9ac44c4c0931843",
-    "native_feature_rebuilt": "按精确原生草图和拉伸参数重建，默认中文名称；非只重命名"
+    "current_sha256": "d233d3bf24a51d1ff4233330c725ff44d95703b1a71a5d0ffc14415a4e770a68",
+    "native_feature_rebuilt": "按精确原生草图和拉伸参数重建，默认中文名称；非只重命名",
+    "latest_revision": "大面积4/3/2mm实心背板替换窄筋，12个φ3.2普通孔不变；见实心背板说明。"
   },
   {
     "source": "SW_Ready/Final_Designs/Editable_Features/radar_bracket_native_features.SLDPRT",
@@ -43,7 +44,7 @@
     "category": "连接件",
     "name": "圆弧中间连接件",
     "source_sha256": "399093cfe48298bfebec77d1c7d9b23a685d93577978cf590fc2371c7ecd9c9c",
-    "current_sha256": "9ae166a5c3359da0f947ef95be6c458792c217a6872aa431674a08db678de0f4",
+    "current_sha256": "fb15cf5918cfcd66e87e6449121dbdf5c1d2309fc088b7dfdbfc81d839bfd1cb",
     "native_feature_rebuilt": "按精确原生草图和拉伸参数重建，默认中文名称；非只重命名",
     "hole_revision": "相机相关连接孔统一φ3；主壳四角补厚；见连接孔径统一说明",
     "latest_revision": "统一40mm，详见统一40mm连接件更新.md；已知60度包络干涉"
@@ -62,7 +63,7 @@
     "category": "机器人",
     "name": "小腿",
     "source_sha256": "f1c3ca78e8aa44b76e8315ce5ed3d01ae07e843b2a2785dca2be328289618735",
-    "current_sha256": "b316b6d2ccc496169fe51e5c6b2ce2db9ed495af00c51bdec3b4974b84f62100"
+    "current_sha256": "9cee23695edd7ffeab0caeb9eb968a83b07c515199b978ce218828b06198e692"
   },
   {
     "source": "SW_Ready/SW_Native/Parts/calf_mirror.SLDPRT",
@@ -70,7 +71,7 @@
     "category": "机器人",
     "name": "镜像小腿",
     "source_sha256": "77d3d722a2549cf0b9ebb8f327fcd76e879703937846a32e035a08c47da3031e",
-    "current_sha256": "0c86c616dbdb549360f43436471fb62d3acbc33ccd802865e0008f7769414671"
+    "current_sha256": "c1e8491460aa7a9e2ac029ecfb7a1cfc6e91b868249edacd3c83530e92cb39d5"
   },
   {
     "source": "SW_Ready/SW_Native/Parts/foot.SLDPRT",
@@ -78,7 +79,7 @@
     "category": "机器人",
     "name": "足端",
     "source_sha256": "67cc77cc9469ce9613a2e5198210a68fef8fca62fbe4aed5423615baef478c11",
-    "current_sha256": "44e8c5f0154b50cae8b640c8d9178694a5117611bf3a0a0591300103e5641a3f"
+    "current_sha256": "e30d71575d7bf6c30ff020e333e8a6d43989d38709012b5c71a5ba98810994b8"
   },
   {
     "source": "SW_Ready/SW_Native/Parts/hip.SLDPRT",
@@ -86,7 +87,7 @@
     "category": "机器人",
     "name": "髋关节",
     "source_sha256": "877b4b3aacef2ed188107a43e7eb09a455e5dc5b84f106a70104287db70ce599",
-    "current_sha256": "3d1fe93e8fc2f7baa802a78b8b58df4686fe40487cbd42dbd7cc67c615225d88"
+    "current_sha256": "1078aa921e5cf3b698dd5c2bf354c14b71a49df89323a3c1352216e7cc0b65ad"
   },
   {
     "source": "SW_Ready/SW_Native/Parts/radar_extension2.SLDPRT",
@@ -102,7 +103,7 @@
     "category": "原始连接件",
     "name": "雷达支撑件",
     "source_sha256": "777ed84e423394b70ede37b7780dec49d1a524415703e545eccb915d136676de",
-    "current_sha256": "f5ae6745068f8c250bd36cba1551817b09aebbac81069e30f7fe6cdb2c1e5132"
+    "current_sha256": "f1a03de9a4f3c7416235cdc772c097ab24c8b97b5b886fa7af931ec218373f8d"
   },
   {
     "source": "SW_Ready/SW_Native/Parts/thigh.SLDPRT",
@@ -110,7 +111,7 @@
     "category": "机器人",
     "name": "大腿",
     "source_sha256": "f28232c76c17d79277104922e00586c5ac2b0a9376172b7b2c9a5d8fb9c1543c",
-    "current_sha256": "0ebb53f5f4e6e12297f25bb9e72afa97542d842a0dba1227c79929e72d1c0e4e"
+    "current_sha256": "2e97fff3b717309f87df28bb496b7c768b54e43080e7dcc4fa31a568a65c22a3"
   },
   {
     "source": "SW_Ready/SW_Native/Parts/thigh_mirror.SLDPRT",
@@ -118,14 +119,14 @@
     "category": "机器人",
     "name": "镜像大腿",
     "source_sha256": "71ab92c4f9880fc87fb5e1a9f830e24f6ac0ad57c3c991f889fb23b5acfe99ca",
-    "current_sha256": "b132e8dc49249fdd03b055455bb847763dac56b6aa3f4b659f903759bdab0b5a"
+    "current_sha256": "729b15476ec016159051fbe7952d5ea577a5a0cf63bdfc419be108ae3a7387e3"
   },
   {
     "name": "相机支架与后盖一体件",
     "destination": "SW_Ready/零件/连接件/相机支架与后盖一体件.SLDPRT",
     "category": "连接件",
     "geometry_revision": "后盖向后加厚至6mm，与6mm支架无缝融合；原光学位姿不变",
-    "current_sha256": "884bd021f8b6dca361bd8a932b858e2895cd75df0facd853dcdb588b18b476f6",
+    "current_sha256": "a193ea8b79aaa62886ce4802efca8fd04a1c1e79f4c118a1bc2ef8d6538207d3",
     "rib_revision": "中央加强筋Y=-3…3mm，厚6mm，另一筋不变；φ6.35工具包络两侧CAD间距均约0.825mm；孔位和装配变换不变",
     "latest_revision": "统一40mm，详见统一40mm连接件更新.md；已知60度包络干涉"
   }

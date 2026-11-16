@@ -1,0 +1,24 @@
+{
+  "candidate": "C:\\Users\\21508\\AppData\\Local\\Temp\\RadarAddedUpperRibs.step",
+  "original_motor_angle_deg": 60,
+  "reference": "Union of occupied1mm voxel cells, each treated as full cube, clipped only outside adapter bbox plus2mm",
+  "exact_box_count": 383,
+  "included_motor_cells": 4205,
+  "minimum_distance_to_clipped_cell_union_mm": 1.4716926454704742,
+  "overlap_mm3": 0.0,
+  "CAD_cell_noninterference_pass": true,
+  "scope": "Exact CAD versus disjoint voxel-cell union. No continuous-source error or safety3mm clearance certification.",
+  "adapter_point": [
+    231.69607462548163,
+    30.0,
+    42.19662381025261
+  ],
+  "envelope_point": [
+    230.5,
+    30.5,
+    41.5
+  ],
+  "verification_target": "Only new reinforcement material, exact CAD difference from pre-rib STEP",
+  "final_STEP_sha256": "2ce726ea81a20b802559830289481fcd56ce6e66f112867ac0265177d326d713",
+  "status": "HISTORICAL narrow-rib revision, superseded by broad solid backing. Current evidence in 雷达转接件实心背板_* reports"
+}

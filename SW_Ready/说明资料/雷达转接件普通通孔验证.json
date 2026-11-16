@@ -1,0 +1,178 @@
+{
+  "hole_count": 12,
+  "mount_hole_count": 8,
+  "middle_interface_hole_count": 4,
+  "all_diameters_mm": 3.2,
+  "counterbores_and_large_access_holes_present": false,
+  "four_middle_interface_axes_aligned": true,
+  "holes": [
+    {
+      "diameter_mm": 3.2000000000000015,
+      "axis_anchor_local_mm": [
+        0.0,
+        -9.0,
+        12.0
+      ],
+      "axis_local": [
+        1.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "diameter_mm": 3.2000000000000015,
+      "axis_anchor_local_mm": [
+        0.0,
+        9.0,
+        12.0
+      ],
+      "axis_local": [
+        1.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "diameter_mm": 3.2000000000000015,
+      "axis_anchor_local_mm": [
+        0.0,
+        9.0,
+        -12.0
+      ],
+      "axis_local": [
+        1.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "diameter_mm": 3.2000000000000015,
+      "axis_anchor_local_mm": [
+        0.0,
+        -9.0,
+        -12.0
+      ],
+      "axis_local": [
+        1.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "diameter_mm": 3.1999999999999504,
+      "axis_anchor_local_mm": [
+        82.71862651664279,
+        -36.0,
+        -98.5802203256241
+      ],
+      "axis_local": [
+        0.7660444431188378,
+        -0.0,
+        0.6427876096867067
+      ]
+    },
+    {
+      "diameter_mm": 3.1999999999999504,
+      "axis_anchor_local_mm": [
+        82.71862651664279,
+        36.0,
+        -98.5802203256241
+      ],
+      "axis_local": [
+        0.7660444431188378,
+        -0.0,
+        0.6427876096867067
+      ]
+    },
+    {
+      "diameter_mm": 3.1999999999999504,
+      "axis_anchor_local_mm": [
+        75.3908477662143,
+        36.0,
+        -89.84731367406934
+      ],
+      "axis_local": [
+        0.7660444431188378,
+        -0.0,
+        0.6427876096867067
+      ]
+    },
+    {
+      "diameter_mm": 3.1999999999999504,
+      "axis_anchor_local_mm": [
+        75.3908477662143,
+        -36.0,
+        -89.84731367406934
+      ],
+      "axis_local": [
+        0.7660444431188378,
+        -0.0,
+        0.6427876096867067
+      ]
+    },
+    {
+      "diameter_mm": 3.2000000000000046,
+      "axis_anchor_local_mm": [
+        96.85995392975033,
+        36.0,
+        -115.4331980742385
+      ],
+      "axis_local": [
+        0.7660444431188378,
+        -0.0,
+        0.6427876096867067
+      ]
+    },
+    {
+      "diameter_mm": 3.2000000000000046,
+      "axis_anchor_local_mm": [
+        96.85995392975033,
+        -36.0,
+        -115.4331980742385
+      ],
+      "axis_local": [
+        0.7660444431188378,
+        -0.0,
+        0.6427876096867067
+      ]
+    },
+    {
+      "diameter_mm": 3.200000000000017,
+      "axis_anchor_local_mm": [
+        104.18773268017878,
+        -36.0,
+        -124.16610472579326
+      ],
+      "axis_local": [
+        0.7660444431188378,
+        -0.0,
+        0.6427876096867067
+      ]
+    },
+    {
+      "diameter_mm": 3.200000000000017,
+      "axis_anchor_local_mm": [
+        104.18773268017878,
+        36.0,
+        -124.16610472579326
+      ],
+      "axis_local": [
+        0.7660444431188378,
+        -0.0,
+        0.6427876096867067
+      ]
+    }
+  ],
+  "motion_scope": "Restored recess material lies at X>=248mm, beyond sampled motor envelope maxX241.5mm; enlarged holes only remove material. Previous near-zero clearance limit remains, no claim of real-world safety.",
+  "added_material_bbox_robot_mm": [
+    247.99999989903978,
+    -20.000000100960232,
+    -22.00000010097916,
+    264.5361387998175,
+    20.000000100960232,
+    16.000000100960232
+  ],
+  "added_material_outside_raw_motor_envelope_X_max241p5": true,
+  "raw_voxel_cell_clearance_lower_bound_mm": 0.07039462053055412,
+  "revision_scope": "Validation of earlier plain-hole conversion. Subsequent upper-rib additions are separately checked in 雷达转接件上板加强筋_* reports; all12 plain holes remain unchanged."
+}

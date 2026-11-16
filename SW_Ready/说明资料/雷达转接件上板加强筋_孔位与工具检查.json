@@ -1,0 +1,50 @@
+{
+  "twelve_original_hole_axes_and_diameters_preserved": true,
+  "all_hole_diameters_mm": 3.2,
+  "upper_four_hole_tool_channels": [
+    {
+      "mount_hole_point_mm": [
+        234.5662573336867,
+        -36.0,
+        43.71671378654843
+      ],
+      "tool_envelope_diameter_mm": 6.35,
+      "rib_overlap_mm3": 0.0,
+      "minimum_rib_distance_mm": 2.0250000000001345
+    },
+    {
+      "mount_hole_point_mm": [
+        234.5662573336867,
+        36.0,
+        43.71671378654843
+      ],
+      "tool_envelope_diameter_mm": 6.35,
+      "rib_overlap_mm3": 0.0,
+      "minimum_rib_distance_mm": 2.0250000000001345
+    },
+    {
+      "mount_hole_point_mm": [
+        241.89403608411516,
+        36.0,
+        34.983807134993675
+      ],
+      "tool_envelope_diameter_mm": 6.35,
+      "rib_overlap_mm3": 0.0,
+      "minimum_rib_distance_mm": 0.9432520563946922
+    },
+    {
+      "mount_hole_point_mm": [
+        241.89403608411516,
+        -36.0,
+        34.983807134993675
+      ],
+      "tool_envelope_diameter_mm": 6.35,
+      "rib_overlap_mm3": 0.0,
+      "minimum_rib_distance_mm": 0.9432520563946922
+    }
+  ],
+  "added_ribs_vs_other_three_mounts_overlap_mm3": 0,
+  "scope": "Tool corridors checked only against new ribs; no recessed-head feature introduced, no robot/fastener motion or strength certification.",
+  "all_original_hole_axes_and_diameters_compared_with_backup": true,
+  "status": "HISTORICAL narrow-rib revision, superseded by broad solid backing. Current evidence in 雷达转接件实心背板_* reports"
+}

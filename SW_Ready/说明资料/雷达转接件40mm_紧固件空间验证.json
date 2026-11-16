@@ -226,5 +226,6 @@
     }
   ],
   "four_axes_coaxial": true,
-  "scope": "Virtual envelope only: head5.5x3, nut across-corners6.35 height2.4, front socket6.35, rear key3. No hardware strength or final fastener selection certification."
+  "scope": "Virtual envelope only: head5.5x3, nut across-corners6.35 height2.4, front socket6.35, rear key3. No hardware strength or final fastener selection certification.",
+  "status": "HISTORICAL before relieved plate revision; current results in 雷达转接件避让改型_* reports"
 }

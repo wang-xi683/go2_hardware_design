@@ -1,0 +1,118 @@
+{
+  "all_twelve_phi3p2_holes_and_axes_preserved": true,
+  "installation_front_no_protrusions_within1e_minus6_mm": true,
+  "upper_four_tool_channels": [
+    {
+      "hole_point_robot_mm": [
+        234.5662573336867,
+        -36.0,
+        43.71671378654843
+      ],
+      "back_plane_depth_mm": 1,
+      "tool_diameter_mm": 6.35,
+      "overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.009999999999968446
+    },
+    {
+      "hole_point_robot_mm": [
+        234.5662573336867,
+        36.0,
+        43.71671378654843
+      ],
+      "back_plane_depth_mm": 1,
+      "tool_diameter_mm": 6.35,
+      "overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.009999999999968446
+    },
+    {
+      "hole_point_robot_mm": [
+        241.89403608411516,
+        36.0,
+        34.983807134993675
+      ],
+      "back_plane_depth_mm": 4,
+      "tool_diameter_mm": 6.35,
+      "overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.009999999999973013
+    },
+    {
+      "hole_point_robot_mm": [
+        241.89403608411516,
+        -36.0,
+        34.983807134993675
+      ],
+      "back_plane_depth_mm": 4,
+      "tool_diameter_mm": 6.35,
+      "overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.009999999999973013
+    }
+  ],
+  "other_mounts": [
+    {
+      "part": "圆弧中间连接件",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "雷达延长板",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "相机支架与后盖一体件",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "blocks_per_side": [
+    {
+      "uv_outline_mm": [
+        [
+          23,
+          23
+        ],
+        [
+          42,
+          23
+        ],
+        [
+          42,
+          28
+        ],
+        [
+          39,
+          34
+        ],
+        [
+          39,
+          41
+        ],
+        [
+          23,
+          41
+        ]
+      ],
+      "depth_mm": 4
+    },
+    {
+      "u_mm": [
+        23,
+        32
+      ],
+      "v_mm": [
+        41,
+        51.5
+      ],
+      "depth_mm": 3
+    },
+    {
+      "u_mm": [
+        32,
+        38
+      ],
+      "v_mm": [
+        41,
+        46
+      ],
+      "depth_mm": 2
+    }
+  ],
+  "note": "Bounds on left are mirrored. Step planes regular; outer upper corner stays original1mm. Tool cylinders start at respective new rear surfaces; no head recess designed."
+}

@@ -1,0 +1,7 @@
+{
+  "eight_mounting_hole_axes_max_error_mm": 6.355287432313019e-14,
+  "fixed_installation_plane_error_mm": 2.842170943040401e-14,
+  "mounting_hole_diameter_mm": 3.2,
+  "saddle_clearance_hole_diameter_mm": 3.2,
+  "axes_revision": "Only radii changed; hole centers and installation plane unchanged"
+}

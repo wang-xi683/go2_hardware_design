@@ -1,0 +1,16 @@
+{
+  "native_feature_rebuild": "PASS: thirteen default Chinese machining features, one valid solid",
+  "fixed_plane_and_eight_holes": "PASS",
+  "four_holes_and_fastener_tool_space": "Four hole axes PASS; dedicated head/nut/tool recesses removed; hardware assembly space NOT VERIFIED",
+  "existing_raw_60deg_voxel_cell_overlap_mm3": 0,
+  "existing_raw_60deg_voxel_cell_minimum_gap_mm": 0.07039462053055412,
+  "continuous_motion_and_manufacturing_clearance": "NOT VERIFIED",
+  "strength_of_1mm_plate": "NOT VERIFIED",
+  "whole_robot_clearance": "NOT PASS: other40mm parts remain unchanged with known overlaps",
+  "all_twelve_holes_diameter_mm": 3.2,
+  "upper_reinforcement": "Broad continuous solid backing4/3/2mm total depth; former narrow ribs removed; outer upper corner retains necessary1mm skin",
+  "new_ribs_vs_upper_hole_tool_corridors": "PASS",
+  "front_plane_cleanup": "PASS no actual projection beyond front plane within1e-6mm",
+  "motion_scope": "New backing has no sampled voxel-cell overlap; entire part prior near-zero clearance limitation remains; continuous motion, strength and manufacturing clearance NOT VERIFIED",
+  "new_backing_motor_voxel_cell_clearance_mm": 0.3539912630199922
+}

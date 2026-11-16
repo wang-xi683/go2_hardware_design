@@ -1,0 +1,192 @@
+{
+  "scene": {
+    "assembly": "C:\\Users\\21508\\Desktop\\Go2_SW_Project\\SW_Ready\\装配体\\无头Go2传感器安装总装.SLDASM",
+    "camera_name": "带保护壳的深度相机-1/D435i深度相机-1",
+    "camera_file": "C:\\Users\\21508\\Desktop\\Go2_SW_Project\\SW_Ready\\零件\\相机\\D435i深度相机.SLDPRT",
+    "camera_global_transform16": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0.2242,
+      -0.0175,
+      0.1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "adapter_name": "雷达转接件-1",
+    "adapter_file": "C:\\Users\\21508\\Desktop\\Go2_SW_Project\\SW_Ready\\零件\\连接件\\雷达转接件.SLDPRT",
+    "adapter_global_transform16": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "scene_STEP": "C:\\Users\\21508\\AppData\\Local\\Temp\\radar_adapter_FOV_scene.step",
+    "units": "SolidWorks raw translation meters, STEP millimeters",
+    "pose_convention": "Component2 Transform2 is already global; do not multiply parent again"
+  },
+  "adapter_bbox_camera_mechanical_mm": [
+    -24.5000001,
+    -122.00000010001892,
+    6.653991263019483,
+    59.5000001,
+    -53.60213056253574,
+    42.05568659124146
+  ],
+  "depth_optical_origin_robot_mm": [
+    220.00000000000003,
+    0.0,
+    100.0
+  ],
+  "camera_forward_axis_robot": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "target": "Current radar adapter only, including solid backing and all curved/support parts",
+  "source": "Project-adopted FOV/window parameters from 前盖光学扩口说明.md and 相机光学窗口参考.md; current live SW component poses",
+  "results": [
+    {
+      "case": "left_IR_window",
+      "HFOV_deg": 90,
+      "VFOV_deg": 65,
+      "ray_origin_plane_z_camera_mm": 0,
+      "aperture_radius_mm": 5,
+      "sampled_ray_count": 9537,
+      "blocked_sample_rays": 0,
+      "first_hits": [],
+      "continuous_vertical_bound": {
+        "lower_ray_vertical_separation_mm": 43.431349326311654,
+        "lower_frustum_boundary_plane_normal_separation_mm": 36.62962850192249,
+        "all_forward_rays_in_adopted_continuous_vertical_range_clear": true,
+        "method": "Exact CAD support bound y+tan(VFOV/2)*z; full aperture lower edge; lateral extent ignored conservatively."
+      }
+    },
+    {
+      "case": "right_IR_window",
+      "HFOV_deg": 90,
+      "VFOV_deg": 65,
+      "ray_origin_plane_z_camera_mm": 0,
+      "aperture_radius_mm": 5,
+      "sampled_ray_count": 9537,
+      "blocked_sample_rays": 0,
+      "first_hits": [],
+      "continuous_vertical_bound": {
+        "lower_ray_vertical_separation_mm": 43.431349326311654,
+        "lower_frustum_boundary_plane_normal_separation_mm": 36.62962850192249,
+        "all_forward_rays_in_adopted_continuous_vertical_range_clear": true,
+        "method": "Exact CAD support bound y+tan(VFOV/2)*z; full aperture lower edge; lateral extent ignored conservatively."
+      }
+    },
+    {
+      "case": "RGB_window",
+      "HFOV_deg": 72,
+      "VFOV_deg": 45,
+      "ray_origin_plane_z_camera_mm": 0,
+      "aperture_radius_mm": 3.5,
+      "sampled_ray_count": 9537,
+      "blocked_sample_rays": 0,
+      "first_hits": [],
+      "continuous_vertical_bound": {
+        "lower_ray_vertical_separation_mm": 46.74016588543554,
+        "lower_frustum_boundary_plane_normal_separation_mm": 43.18228260773618,
+        "all_forward_rays_in_adopted_continuous_vertical_range_clear": true,
+        "method": "Exact CAD support bound y+tan(VFOV/2)*z; full aperture lower edge; lateral extent ignored conservatively."
+      }
+    },
+    {
+      "case": "depth_optical_58",
+      "HFOV_deg": 58,
+      "VFOV_deg": 58,
+      "ray_origin_plane_z_camera_mm": -4.2,
+      "aperture_radius_mm": 0,
+      "sampled_ray_count": 1089,
+      "blocked_sample_rays": 0,
+      "first_hits": [],
+      "continuous_vertical_bound": {
+        "lower_ray_vertical_separation_mm": 46.77498272808606,
+        "lower_frustum_boundary_plane_normal_separation_mm": 40.910321695088925,
+        "all_forward_rays_in_adopted_continuous_vertical_range_clear": true,
+        "method": "Exact CAD support bound y+tan(VFOV/2)*z; full aperture lower edge; lateral extent ignored conservatively."
+      }
+    },
+    {
+      "case": "right_IR_optical_58",
+      "HFOV_deg": 58,
+      "VFOV_deg": 58,
+      "ray_origin_plane_z_camera_mm": -4.2,
+      "aperture_radius_mm": 0,
+      "sampled_ray_count": 1089,
+      "blocked_sample_rays": 0,
+      "first_hits": [],
+      "continuous_vertical_bound": {
+        "lower_ray_vertical_separation_mm": 46.77498272808606,
+        "lower_frustum_boundary_plane_normal_separation_mm": 40.910321695088925,
+        "all_forward_rays_in_adopted_continuous_vertical_range_clear": true,
+        "method": "Exact CAD support bound y+tan(VFOV/2)*z; full aperture lower edge; lateral extent ignored conservatively."
+      }
+    },
+    {
+      "case": "depth_optical_90x65",
+      "HFOV_deg": 90,
+      "VFOV_deg": 65,
+      "ray_origin_plane_z_camera_mm": -4.2,
+      "aperture_radius_mm": 0,
+      "sampled_ray_count": 1089,
+      "blocked_sample_rays": 0,
+      "first_hits": [],
+      "continuous_vertical_bound": {
+        "lower_ray_vertical_separation_mm": 45.755654230920186,
+        "lower_frustum_boundary_plane_normal_separation_mm": 38.58992737593026,
+        "all_forward_rays_in_adopted_continuous_vertical_range_clear": true,
+        "method": "Exact CAD support bound y+tan(VFOV/2)*z; full aperture lower edge; lateral extent ignored conservatively."
+      }
+    },
+    {
+      "case": "right_IR_optical_90x65",
+      "HFOV_deg": 90,
+      "VFOV_deg": 65,
+      "ray_origin_plane_z_camera_mm": -4.2,
+      "aperture_radius_mm": 0,
+      "sampled_ray_count": 1089,
+      "blocked_sample_rays": 0,
+      "first_hits": [],
+      "continuous_vertical_bound": {
+        "lower_ray_vertical_separation_mm": 45.755654230920186,
+        "lower_frustum_boundary_plane_normal_separation_mm": 38.58992737593026,
+        "all_forward_rays_in_adopted_continuous_vertical_range_clear": true,
+        "method": "Exact CAD support bound y+tan(VFOV/2)*z; full aperture lower edge; lateral extent ignored conservatively."
+      }
+    }
+  ],
+  "total_rays": 32967,
+  "blocked_rays": 0,
+  "positive_control_face_intersections": 2,
+  "conclusion": "PASS no occlusion under adopted geometry and FOV model",
+  "limitations": [
+    "No live camera image/calibration verification; physical optical-origin assumptions follow project records.",
+    "Only current adapter checked; radar sensor body and unmodeled screws/cables not included.",
+    "Three active windows checked. Taped central projector has no independently validated optical model."
+  ],
+  "scene_STEP_sha256": "d72b57013a51bbaaccf252597d5d3186c53a9326f4dec152fabc49bc8073b05c"
+}
